@@ -1,0 +1,976 @@
+{
+  "product_variants": [
+    {
+      "product_id": "a91e063d-51d2-425e-af0d-a01ee15bab1c",
+      "product_key": "classic-coffee-cup",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "d81a1612-5192-4f1c-86f2-fe48f2235ffa",
+      "product_key": "chianti-wine-glass",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "3a700de5-8fe8-4cdb-b670-1dc9ec74664a",
+      "product_key": "charlie-armchair",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "cd972b16-b6ee-4de0-bdbb-1893c8840ba9",
+      "product_key": "ashen-rug",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "655c259d-904a-4eea-9999-0e6ab90c5f0c",
+      "product_key": "art-deco-coffee-table",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "66383ded-5708-4dae-a5e5-9fec4c8e3071",
+      "product_key": "canela-three-seater-sofa",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "d4a5d197-f8fa-4605-ae8f-e555e6645687",
+      "product_key": "classic-champagne-glasses",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "8c7d3bf1-5880-401e-b9c6-f0c8b448d3dd",
+      "product_key": "amalia-rug",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "dfe8ccc3-ba86-401d-a0f5-ddac5941324a",
+      "product_key": "aria-rug",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "24b17ecf-0202-4556-9b39-4b5b4e1ed98a",
+      "product_key": "classic-serving-tray",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "96fd3165-2b52-498a-ac7a-74943a7f15d7",
+      "product_key": "charcoal-chair",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "3ba1bb3f-f88b-4fc6-9bbb-b21cb56df9d4",
+      "product_key": "bruno-chair",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "6db37bd5-3545-4dc9-a129-4932f8803900",
+      "product_key": "art-deco-chair",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "52beb44d-277d-472b-9f4a-cf55b0f689b2",
+      "product_key": "abigail-lounge-chair",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "efd72688-fb56-40c8-8427-02b57e65a219",
+      "product_key": "classic-beer-mug",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "69abb576-2cf7-46b1-a289-13482423a07a",
+      "product_key": "ben-pillow-cover",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "803e83b1-4363-46b5-a4c0-36cfb3169785",
+      "product_key": "braided-rug",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "36c3347f-d4a7-4b1c-be33-5fc238398430",
+      "product_key": "cobblestone-rug",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "2f8a644a-fb3c-4788-8118-80c7ada2f70b",
+      "product_key": "clink-champagne-glass",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "0ef71f58-40ba-4e10-a3d9-073c7ab169d0",
+      "product_key": "cloud-queen-bed",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "fd2dc370-f598-4c42-9437-dae32eda5559",
+      "product_key": "cocktail-shaker",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "c29433ca-3fbd-4b7b-b982-094b636c0219",
+      "product_key": "cocktail-shaker-set",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "7c0d0dbe-e230-42ee-9d6e-00c155ac1945",
+      "product_key": "cocktail-stirring-spoon",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "019c3674-1809-4f1a-ae33-5c3d16d6139c",
+      "product_key": "cocoa-pillow-cover",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "53256164-b89e-4566-84eb-77f61a032b4b",
+      "product_key": "cocktail-strainer",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "9996bc8a-fd20-4088-9148-0799bd171c93",
+      "product_key": "comfort-coffee-mug",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "c67f93e7-475c-484b-93d3-a30e03679ad8",
+      "product_key": "crystal-drinking-glass",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "46f75ecd-9d26-4e12-96b1-ddf2698881a7",
+      "product_key": "cotton-two-seater-sofa",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "14c8194c-3f84-4333-9a3f-6690731a9449",
+      "product_key": "double-walled-espresso-glass",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "9303065e-697a-46c7-94a5-b6a77d741c6e",
+      "product_key": "cotton-silk-bedsheet",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "8702fcbc-f407-486d-bc79-32a392adb957",
+      "product_key": "double-sided-shot-glass",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "84eebf4f-b2a9-4b49-8db0-4868c03679d0",
+      "product_key": "ecru-double-bed",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "c479f178-c2de-4943-bdd1-592f01a56bd6",
+      "product_key": "edgar-armchair",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "64991908-5c74-48c3-b8a8-8ed81c67cae9",
+      "product_key": "emerald-velvet-chair",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "cde4bae8-9dae-4626-96ba-601ee3148a10",
+      "product_key": "ella-square-plate",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "3e85a032-3b20-4318-af81-5ca41b921c22",
+      "product_key": "entryway-closet",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "cedc7dab-f77c-4bbf-adc1-6c2d30d09085",
+      "product_key": "fawn-armchair",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "5e41a469-cd60-4203-8165-ce71ee8ae978",
+      "product_key": "evergreen-candle",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "26743ee4-7fe5-49d2-9dc7-68270726ecff",
+      "product_key": "glam-armchair",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "e1292a89-70f1-4783-9f9e-ccbb70c3d8d1",
+      "product_key": "gold-rimmed-champagne-glasses",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "a910c5ee-eb80-499d-8a41-e1f2d337a108",
+      "product_key": "green-serving-plate",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "15e5503d-c7b6-4573-bae7-91b11ac5aeb1",
+      "product_key": "harmony-drinking-glass",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "e03e2ed4-63f5-4d99-b5de-aac51544ae2f",
+      "product_key": "harvest-plate",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "0531fe02-e6d3-4a26-8b83-ee7f173def62",
+      "product_key": "ice-bucket",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "65cf63f7-b53b-4cef-a5d3-39c9f1dd3a53",
+      "product_key": "indoor-jute-planter",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "930fc0bb-ae6d-46b3-bbc3-5814226eac00",
+      "product_key": "idun-pillow-cover",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "372f1dec-8fcb-451e-a948-6f4fb4cde8a8",
+      "product_key": "ivory-plate",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "1c365b4b-0dc7-49f7-a6d3-da7e96364c2f",
+      "product_key": "jute-rug",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "82eccab4-ad0d-4046-9105-df18920ad49c",
+      "product_key": "lana-pillow-cover",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "71617516-5105-4358-9da4-a46bc24d0ff0",
+      "product_key": "large-ceramic-plate",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "3155d645-f53f-4209-9cc0-dde4e62702b5",
+      "product_key": "leather-coaster",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "dabcd130-c31d-48ba-9ad8-da40affb8c11",
+      "product_key": "leather-weave-chair",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "a0da7d2d-5dfd-449b-8e56-6ec8b6cacfc6",
+      "product_key": "luxe-pillow-cover",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "1fa0fd88-3c4d-4a71-aeff-a062e3f278f4",
+      "product_key": "cube-jute-basket",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "d1719b15-6b0f-4764-886b-63699ab35b5a",
+      "product_key": "marquis-tray",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "7998212f-98e2-4a4e-ad2e-3bcedb5bf74a",
+      "product_key": "maya-pillow-cover",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "8ddb6da2-62d7-4a2b-b8c2-1e6820e2ddd3",
+      "product_key": "minimalist-cedar-nightstand",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "bac86c33-968c-43db-bfa0-f1276eb5e4e4",
+      "product_key": "meadow-rug",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "1137bd3f-4434-453e-98e4-83868c264a24",
+      "product_key": "modern-bookcase",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "524ae6c5-b34d-4353-a10f-1490b469569a",
+      "product_key": "modern-ceramic-plate",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "09a7e8ee-c2d4-4803-91da-0055d735d565",
+      "product_key": "modern-black-coaster",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "40bcb72a-77ff-4ad6-8fa1-d91da83c8ef8",
+      "product_key": "modern-glam-dresser",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "bdac5c1e-8d95-4da1-a5bd-d81018f02255",
+      "product_key": "modern-three-seater-sofa",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "d66ac173-faff-40bc-9f1e-4832122d3783",
+      "product_key": "modern-gold-coffee-table",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "8ab24660-e980-4864-8a12-10f0aa83274c",
+      "product_key": "modern-landscape-painting",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "5caad6ca-73d4-4dd5-839b-d2b70f2ce25b",
+      "product_key": "opal-king-bed",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "d3cb0621-7fe4-4a55-84a3-5bfa49daec7e",
+      "product_key": "modern-upholstered-queen-bed",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "61e75d5d-f5ed-486b-a9c6-db9d4592fd40",
+      "product_key": "orion-double-bed",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "ece0e120-a95a-4526-b2b0-185067539a35",
+      "product_key": "leah-armchair",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "821ede49-7373-4955-8b6d-0e400c1bc3a5",
+      "product_key": "nala-two-seater-sofa",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "1d2ef4f0-3c5f-4bb8-aa4f-d18048a66439",
+      "product_key": "modern-upholstered-twin-bed",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "96585a87-6269-4711-a17f-d4835d327227",
+      "product_key": "purple-minimalist-abstract-painting",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "b97093a8-d261-4488-8088-03fbdb8063fb",
+      "product_key": "patterned-pillow-cover",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "e050878f-cd8d-4ee6-8f8e-4e198932b1be",
+      "product_key": "pink-abstract-painting",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "34f26e81-9423-42d2-9de9-8310dd18269f",
+      "product_key": "natura-rug",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "a34743c6-c18b-47c7-9491-87f354f0997a",
+      "product_key": "purple-landscape-painting",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "a256b1b1-a9e5-4d64-ae56-7393ed70d65f",
+      "product_key": "geometric-pillow-case",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "7194cb29-9f2c-4967-9f18-90a8016b2de0",
+      "product_key": "raven-bowl",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "f3d9e9eb-fc2f-498b-ba32-dc3ad8e2859f",
+      "product_key": "rumi-chair",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "ed448022-d8cd-467b-a96d-1de3069340c6",
+      "product_key": "rattan-lounge-chair",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "04c915ef-21a7-406c-a727-3e4661d79588",
+      "product_key": "rectangle-serving-tray",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "90b23470-0986-40fd-ac63-2ccd4f17b1ab",
+      "product_key": "round-serving-tray",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "8d21ef30-66f5-4c90-bf14-25619f9ff0e3",
+      "product_key": "red-modern-painting",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "96592a91-cb8a-43c8-ba18-b73dd33de516",
+      "product_key": "minimalist-modern-side-table",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "3f75c227-5c72-4325-b165-7480583c5e9d",
+      "product_key": "rustic-bowl",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "2e00a487-36c2-4210-b1b0-08a58f592a10",
+      "product_key": "sally-armchair",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "42097837-35a2-4bc6-8094-da4005367e2a",
+      "product_key": "serenity-queen-bed",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "b55d1725-dc27-4cee-8d3f-94d5d4e25703",
+      "product_key": "ivory-lounge-chair",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "0dfcf7bd-ca72-452e-a844-38ebb0469f51",
+      "product_key": "silky-pillow-cover",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "0bbd622f-3210-4f97-98dd-1a12db60f02d",
+      "product_key": "sipper-coffee-mug",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "42b88788-a228-4bdf-8c7f-76d35691ee95",
+      "product_key": "small-wooden-bowl",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "1f29394c-8b2b-4c07-ac69-76dcf0905b38",
+      "product_key": "slate-armchair",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "64d3f5fe-4f6f-47f1-8181-2f1036116443",
+      "product_key": "square-bamboo-coaster",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "00512d17-b2d1-4ce5-b70a-b0b9f8d8b362",
+      "product_key": "sparkle-champagne-glass",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "c94a3ada-d02c-48b3-8a03-b7bb7c37ac6f",
+      "product_key": "steel-hip-flask",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "58c566f9-0e06-4732-941b-f032e5c9f7b2",
+      "product_key": "stout-beer-glass",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "ffdd3c1f-9836-410d-9e30-d479fa7cb029",
+      "product_key": "sunnai-glass-bowl",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "689109ff-6b45-4ac0-b1ed-4de309e7f9e9",
+      "product_key": "tan-queen-bed",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "3fdbeab7-f9c1-493a-b597-fca3eafdf8ac",
+      "product_key": "sweet-pea-candle",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "44cd489e-b191-4063-9fdb-7563f1ba5136",
+      "product_key": "stone-serving-tray",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "75f03326-5efa-4abb-90df-108490f057da",
+      "product_key": "traditional-l-seater-sofa",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "e2d0ed15-ba55-4b10-8f3d-8686aa594a68",
+      "product_key": "travel-coffee-mug",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "60fcd7aa-bc23-44ff-b48d-72ff7f7b1768",
+      "product_key": "teak-serving-platter",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "455c341c-b76d-4eb6-8f26-d8b3c0191963",
+      "product_key": "vanilla-candle",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "c4d0ec2f-310e-4f70-b758-84405106aac5",
+      "product_key": "rustic-country-dresser",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "92a4ccc2-91b1-482c-bc1c-a8ddec30926e",
+      "product_key": "rustic-country-queen-bed",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "320a5a86-6b09-4eae-947c-7741c04c5fc2",
+      "product_key": "rustic-oven-casserole",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "416121d7-b310-4205-9ea6-5d40f8c3e6a9",
+      "product_key": "rye-whiskey-glass",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "70fd4425-f839-4b19-bf38-d055b5ce4e0d",
+      "product_key": "sand-tea-cup",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "d792fa03-b1c4-4d37-a6ab-0e7979b1e93c",
+      "product_key": "turner-velvet-armchair",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "74de943f-7203-41ff-a8db-8aeb30381355",
+      "product_key": "walnut-counter-stool",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "a73171f5-2160-412f-b2e1-a41089dcc573",
+      "product_key": "traditional-armchair",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "6b1a2fd7-3cbd-4fdc-b553-9d89d8804ac8",
+      "product_key": "wilma-chair",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "ed5dfa57-e54c-44ed-80b1-b949202bc840",
+      "product_key": "walnut-cabinet",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "59f0b795-6c10-4023-9ff3-885bed4f6bcc",
+      "product_key": "willow-teapot",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "beba5e05-ad22-4817-ae57-72e85d8e1def",
+      "product_key": "wine-bottle-opener",
+      "variant_id": null,
+      "sku": null
+    },
+    {
+      "product_id": "de8a5e28-e62f-46bb-bcd1-5f3a7c619b89",
+      "product_key": "traditional-three-seater-sofa",
+      "variant_id": null,
+      "sku": null
+    }
+  ],
+  "cart_customers": [
+    {
+      "cart_id": "3f1b52ec-0a84-4576-9e45-f6af0f063236",
+      "customer_id": "92c0353a-622b-4863-85e9-3c9b5c9988ba",
+      "anonymous_id": null
+    },
+    {
+      "cart_id": "8ec58dd8-a18e-4222-a3ab-cbd0a5eac01d",
+      "customer_id": "3554f663-2cb1-47f9-bdf1-70749e27047f",
+      "anonymous_id": null
+    },
+    {
+      "cart_id": "43b9c823-1e7e-4583-8bb2-70a5b3725f12",
+      "customer_id": "0966d082-3a04-4d19-a48a-183295e58eba",
+      "anonymous_id": null
+    },
+    {
+      "cart_id": "e141597e-39f2-45a5-890a-dc06661e83c1",
+      "customer_id": "f75c0b5e-c6d2-4def-bad9-869f6570db1c",
+      "anonymous_id": null
+    },
+    {
+      "cart_id": "56396cb5-acc9-4bd7-b259-81d68e452448",
+      "customer_id": "fbac5344-f5da-47f2-acb9-69cf13824858",
+      "anonymous_id": null
+    },
+    {
+      "cart_id": "358e3fc8-51f6-46cf-a91a-ac810d6b3ccc",
+      "customer_id": "0966d082-3a04-4d19-a48a-183295e58eba",
+      "anonymous_id": null
+    }
+  ],
+  "cart_line_items": [
+    {
+      "cart_id": "3f1b52ec-0a84-4576-9e45-f6af0f063236",
+      "line_item_id": "1516270e-4edc-48e3-bd32-2e32dd6cbc05",
+      "product_id": "e1292a89-70f1-4783-9f9e-ccbb70c3d8d1",
+      "product_key": "gold-rimmed-champagne-glasses",
+      "variant_id": 1,
+      "sku": "GRCG-01",
+      "quantity": 1
+    },
+    {
+      "cart_id": "3f1b52ec-0a84-4576-9e45-f6af0f063236",
+      "line_item_id": "98df8399-10a5-45cc-a8e4-f47e5caffbb2",
+      "product_id": "96592a91-cb8a-43c8-ba18-b73dd33de516",
+      "product_key": "minimalist-modern-side-table",
+      "variant_id": 1,
+      "sku": "MMST-01",
+      "quantity": 1
+    },
+    {
+      "cart_id": "8ec58dd8-a18e-4222-a3ab-cbd0a5eac01d",
+      "line_item_id": "f3e50893-5541-4343-bf4b-d637d5f2cc39",
+      "product_id": "92a4ccc2-91b1-482c-bc1c-a8ddec30926e",
+      "product_key": "rustic-country-queen-bed",
+      "variant_id": 1,
+      "sku": "RCQB-01",
+      "quantity": 1
+    },
+    {
+      "cart_id": "8ec58dd8-a18e-4222-a3ab-cbd0a5eac01d",
+      "line_item_id": "251ebe63-61aa-4b1f-9568-73863dca4681",
+      "product_id": "5caad6ca-73d4-4dd5-839b-d2b70f2ce25b",
+      "product_key": "opal-king-bed",
+      "variant_id": 1,
+      "sku": "MTB-023",
+      "quantity": 1
+    },
+    {
+      "cart_id": "8ec58dd8-a18e-4222-a3ab-cbd0a5eac01d",
+      "line_item_id": "dce59c0a-0026-40bf-90fb-95980d361454",
+      "product_id": "a256b1b1-a9e5-4d64-ae56-7393ed70d65f",
+      "product_key": "geometric-pillow-case",
+      "variant_id": 1,
+      "sku": "GPC-01",
+      "quantity": 1
+    },
+    {
+      "cart_id": "43b9c823-1e7e-4583-8bb2-70a5b3725f12",
+      "line_item_id": "058007f6-edd6-4483-88a6-b6d46e7c332f",
+      "product_id": "c94a3ada-d02c-48b3-8a03-b7bb7c37ac6f",
+      "product_key": "steel-hip-flask",
+      "variant_id": 1,
+      "sku": "FLAS-094",
+      "quantity": 20
+    },
+    {
+      "cart_id": "e141597e-39f2-45a5-890a-dc06661e83c1",
+      "line_item_id": "3bcb9661-0d18-472a-94ff-9ca756b6721a",
+      "product_id": "75f03326-5efa-4abb-90df-108490f057da",
+      "product_key": "traditional-l-seater-sofa",
+      "variant_id": 1,
+      "sku": "TLSS-01",
+      "quantity": 1
+    },
+    {
+      "cart_id": "56396cb5-acc9-4bd7-b259-81d68e452448",
+      "line_item_id": "444942d3-945d-4413-9666-fc6a65ccf4d6",
+      "product_id": "92a4ccc2-91b1-482c-bc1c-a8ddec30926e",
+      "product_key": "rustic-country-queen-bed",
+      "variant_id": 1,
+      "sku": "RCQB-01",
+      "quantity": 1
+    },
+    {
+      "cart_id": "56396cb5-acc9-4bd7-b259-81d68e452448",
+      "line_item_id": "5898ff3a-1424-47da-baba-e4c1213d5cf1",
+      "product_id": "8ab24660-e980-4864-8a12-10f0aa83274c",
+      "product_key": "modern-landscape-painting",
+      "variant_id": 1,
+      "sku": "MLP-01",
+      "quantity": 1
+    },
+    {
+      "cart_id": "56396cb5-acc9-4bd7-b259-81d68e452448",
+      "line_item_id": "4e2facbc-ae2b-453d-9b64-41a2f42589bf",
+      "product_id": "a256b1b1-a9e5-4d64-ae56-7393ed70d65f",
+      "product_key": "geometric-pillow-case",
+      "variant_id": 1,
+      "sku": "GPC-01",
+      "quantity": 1
+    },
+    {
+      "cart_id": "56396cb5-acc9-4bd7-b259-81d68e452448",
+      "line_item_id": "f2983545-9471-4853-a422-f56a06164339",
+      "product_id": "bdac5c1e-8d95-4da1-a5bd-d81018f02255",
+      "product_key": "modern-three-seater-sofa",
+      "variant_id": 1,
+      "sku": "MTSS-01",
+      "quantity": 1
+    },
+    {
+      "cart_id": "358e3fc8-51f6-46cf-a91a-ac810d6b3ccc",
+      "line_item_id": "f7e3c7e0-26a8-4e7c-b1bb-b938c3ce7cd4",
+      "product_id": "c94a3ada-d02c-48b3-8a03-b7bb7c37ac6f",
+      "product_key": "steel-hip-flask",
+      "variant_id": 1,
+      "sku": "FLAS-094",
+      "quantity": 20
+    }
+  ],
+  "order_customers": [
+    {
+      "order_id": "1779f2d9-9c52-49f1-a8b0-2d14a9c31422",
+      "customer_id": "92c0353a-622b-4863-85e9-3c9b5c9988ba",
+      "anonymous_id": null
+    },
+    {
+      "order_id": "cfaa0544-01b2-44d1-aab9-48b9329a1622",
+      "customer_id": "fbac5344-f5da-47f2-acb9-69cf13824858",
+      "anonymous_id": null
+    },
+    {
+      "order_id": "2f6359e2-13d1-4c54-b1e0-a537512808aa",
+      "customer_id": "0966d082-3a04-4d19-a48a-183295e58eba",
+      "anonymous_id": null
+    },
+    {
+      "order_id": "c8d2c79d-1904-4187-bd49-e5337172ab08",
+      "customer_id": "3554f663-2cb1-47f9-bdf1-70749e27047f",
+      "anonymous_id": null
+    },
+    {
+      "order_id": "a0a3d242-f4d7-4a6e-85af-d1007b22d075",
+      "customer_id": "f75c0b5e-c6d2-4def-bad9-869f6570db1c",
+      "anonymous_id": null
+    }
+  ],
+  "order_line_items": [
+    {
+      "order_id": "1779f2d9-9c52-49f1-a8b0-2d14a9c31422",
+      "line_item_id": "1516270e-4edc-48e3-bd32-2e32dd6cbc05",
+      "product_id": "e1292a89-70f1-4783-9f9e-ccbb70c3d8d1",
+      "product_key": "gold-rimmed-champagne-glasses",
+      "variant_id": 1,
+      "sku": "GRCG-01",
+      "quantity": 1
+    },
+    {
+      "order_id": "1779f2d9-9c52-49f1-a8b0-2d14a9c31422",
+      "line_item_id": "98df8399-10a5-45cc-a8e4-f47e5caffbb2",
+      "product_id": "96592a91-cb8a-43c8-ba18-b73dd33de516",
+      "product_key": "minimalist-modern-side-table",
+      "variant_id": 1,
+      "sku": "MMST-01",
+      "quantity": 1
+    },
+    {
+      "order_id": "cfaa0544-01b2-44d1-aab9-48b9329a1622",
+      "line_item_id": "444942d3-945d-4413-9666-fc6a65ccf4d6",
+      "product_id": "92a4ccc2-91b1-482c-bc1c-a8ddec30926e",
+      "product_key": "rustic-country-queen-bed",
+      "variant_id": 1,
+      "sku": "RCQB-01",
+      "quantity": 1
+    },
+    {
+      "order_id": "cfaa0544-01b2-44d1-aab9-48b9329a1622",
+      "line_item_id": "5898ff3a-1424-47da-baba-e4c1213d5cf1",
+      "product_id": "8ab24660-e980-4864-8a12-10f0aa83274c",
+      "product_key": "modern-landscape-painting",
+      "variant_id": 1,
+      "sku": "MLP-01",
+      "quantity": 1
+    },
+    {
+      "order_id": "cfaa0544-01b2-44d1-aab9-48b9329a1622",
+      "line_item_id": "4e2facbc-ae2b-453d-9b64-41a2f42589bf",
+      "product_id": "a256b1b1-a9e5-4d64-ae56-7393ed70d65f",
+      "product_key": "geometric-pillow-case",
+      "variant_id": 1,
+      "sku": "GPC-01",
+      "quantity": 1
+    },
+    {
+      "order_id": "cfaa0544-01b2-44d1-aab9-48b9329a1622",
+      "line_item_id": "f2983545-9471-4853-a422-f56a06164339",
+      "product_id": "bdac5c1e-8d95-4da1-a5bd-d81018f02255",
+      "product_key": "modern-three-seater-sofa",
+      "variant_id": 1,
+      "sku": "MTSS-01",
+      "quantity": 1
+    },
+    {
+      "order_id": "2f6359e2-13d1-4c54-b1e0-a537512808aa",
+      "line_item_id": "058007f6-edd6-4483-88a6-b6d46e7c332f",
+      "product_id": "c94a3ada-d02c-48b3-8a03-b7bb7c37ac6f",
+      "product_key": "steel-hip-flask",
+      "variant_id": 1,
+      "sku": "FLAS-094",
+      "quantity": 20
+    },
+    {
+      "order_id": "c8d2c79d-1904-4187-bd49-e5337172ab08",
+      "line_item_id": "f3e50893-5541-4343-bf4b-d637d5f2cc39",
+      "product_id": "92a4ccc2-91b1-482c-bc1c-a8ddec30926e",
+      "product_key": "rustic-country-queen-bed",
+      "variant_id": 1,
+      "sku": "RCQB-01",
+      "quantity": 1
+    },
+    {
+      "order_id": "c8d2c79d-1904-4187-bd49-e5337172ab08",
+      "line_item_id": "251ebe63-61aa-4b1f-9568-73863dca4681",
+      "product_id": "5caad6ca-73d4-4dd5-839b-d2b70f2ce25b",
+      "product_key": "opal-king-bed",
+      "variant_id": 1,
+      "sku": "MTB-023",
+      "quantity": 1
+    },
+    {
+      "order_id": "c8d2c79d-1904-4187-bd49-e5337172ab08",
+      "line_item_id": "dce59c0a-0026-40bf-90fb-95980d361454",
+      "product_id": "a256b1b1-a9e5-4d64-ae56-7393ed70d65f",
+      "product_key": "geometric-pillow-case",
+      "variant_id": 1,
+      "sku": "GPC-01",
+      "quantity": 1
+    },
+    {
+      "order_id": "a0a3d242-f4d7-4a6e-85af-d1007b22d075",
+      "line_item_id": "3bcb9661-0d18-472a-94ff-9ca756b6721a",
+      "product_id": "75f03326-5efa-4abb-90df-108490f057da",
+      "product_key": "traditional-l-seater-sofa",
+      "variant_id": 1,
+      "sku": "TLSS-01",
+      "quantity": 1
+    }
+  ]
+}

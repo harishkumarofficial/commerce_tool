@@ -1,0 +1,3393 @@
+[
+  {
+    "type": "Order",
+    "id": "1779f2d9-9c52-49f1-a8b0-2d14a9c31422",
+    "version": 1,
+    "versionModifiedAt": "2026-10-12T10:21:38.943Z",
+    "lastMessageSequenceNumber": 1,
+    "createdAt": "2026-10-12T10:21:38.896Z",
+    "lastModifiedAt": "2026-10-12T10:21:38.896Z",
+    "lastModifiedBy": {
+      "isPlatformClient": true
+    },
+    "createdBy": {
+      "isPlatformClient": true
+    },
+    "customerId": "92c0353a-622b-4863-85e9-3c9b5c9988ba",
+    "customerEmail": "jen@example.de",
+    "totalPrice": {
+      "type": "centPrecision",
+      "currencyCode": "EUR",
+      "centAmount": 65000,
+      "fractionDigits": 2
+    },
+    "taxedPrice": {
+      "totalNet": {
+        "type": "centPrecision",
+        "currencyCode": "EUR",
+        "centAmount": 54622,
+        "fractionDigits": 2
+      },
+      "totalGross": {
+        "type": "centPrecision",
+        "currencyCode": "EUR",
+        "centAmount": 65000,
+        "fractionDigits": 2
+      },
+      "taxPortions": [
+        {
+          "rate": 0.19,
+          "amount": {
+            "type": "centPrecision",
+            "currencyCode": "EUR",
+            "centAmount": 10378,
+            "fractionDigits": 2
+          },
+          "name": "Standard VAT for Germany"
+        }
+      ],
+      "totalTax": {
+        "type": "centPrecision",
+        "currencyCode": "EUR",
+        "centAmount": 10378,
+        "fractionDigits": 2
+      }
+    },
+    "country": "DE",
+    "taxedShippingPrice": {
+      "totalNet": {
+        "type": "centPrecision",
+        "currencyCode": "EUR",
+        "centAmount": 42017,
+        "fractionDigits": 2
+      },
+      "totalGross": {
+        "type": "centPrecision",
+        "currencyCode": "EUR",
+        "centAmount": 50000,
+        "fractionDigits": 2
+      },
+      "taxPortions": [
+        {
+          "rate": 0.19,
+          "amount": {
+            "type": "centPrecision",
+            "currencyCode": "EUR",
+            "centAmount": 7983,
+            "fractionDigits": 2
+          },
+          "name": "Standard VAT for Germany"
+        }
+      ],
+      "totalTax": {
+        "type": "centPrecision",
+        "currencyCode": "EUR",
+        "centAmount": 7983,
+        "fractionDigits": 2
+      }
+    },
+    "orderState": "Open",
+    "shipmentState": "Pending",
+    "paymentState": "Pending",
+    "syncInfo": [],
+    "returnInfo": [],
+    "priceRoundingMode": "HalfEven",
+    "taxMode": "Platform",
+    "inventoryMode": "None",
+    "taxRoundingMode": "HalfEven",
+    "taxCalculationMode": "LineItemLevel",
+    "origin": "Merchant",
+    "shippingMode": "Single",
+    "shippingInfo": {
+      "shippingMethodName": "Standard Shipping",
+      "price": {
+        "type": "centPrecision",
+        "currencyCode": "EUR",
+        "centAmount": 50000,
+        "fractionDigits": 2
+      },
+      "shippingRate": {
+        "price": {
+          "type": "centPrecision",
+          "currencyCode": "EUR",
+          "centAmount": 50000,
+          "fractionDigits": 2
+        },
+        "freeAbove": {
+          "type": "centPrecision",
+          "currencyCode": "EUR",
+          "centAmount": 1000000,
+          "fractionDigits": 2
+        },
+        "tiers": []
+      },
+      "taxRate": {
+        "name": "Standard VAT for Germany",
+        "amount": 0.19,
+        "includedInPrice": true,
+        "country": "DE",
+        "id": "pv4WdebX",
+        "key": "vat-standard-de",
+        "subRates": [],
+        "taxRoundingTarget": "Net"
+      },
+      "taxCategory": {
+        "typeId": "tax-category",
+        "id": "4866c807-2a2b-49c7-bb64-9bf75c879000"
+      },
+      "deliveries": [],
+      "shippingMethod": {
+        "typeId": "shipping-method",
+        "id": "f688e316-e298-41bd-a389-cb2b73601315"
+      },
+      "taxedPrice": {
+        "totalNet": {
+          "type": "centPrecision",
+          "currencyCode": "EUR",
+          "centAmount": 42017,
+          "fractionDigits": 2
+        },
+        "totalGross": {
+          "type": "centPrecision",
+          "currencyCode": "EUR",
+          "centAmount": 50000,
+          "fractionDigits": 2
+        },
+        "taxPortions": [
+          {
+            "rate": 0.19,
+            "amount": {
+              "type": "centPrecision",
+              "currencyCode": "EUR",
+              "centAmount": 7983,
+              "fractionDigits": 2
+            },
+            "name": "Standard VAT for Germany"
+          }
+        ],
+        "totalTax": {
+          "type": "centPrecision",
+          "currencyCode": "EUR",
+          "centAmount": 7983,
+          "fractionDigits": 2
+        }
+      },
+      "shippingMethodState": "MatchesCart"
+    },
+    "shippingAddress": {
+      "firstName": "Jennifer",
+      "lastName": "Schmidt",
+      "streetName": "Hauptstrasse",
+      "streetNumber": "25",
+      "postalCode": "14467",
+      "city": "Potsdam",
+      "country": "DE"
+    },
+    "shipping": [],
+    "discountTypeCombination": {
+      "type": "Stacking"
+    },
+    "lineItems": [
+      {
+        "id": "1516270e-4edc-48e3-bd32-2e32dd6cbc05",
+        "productId": "e1292a89-70f1-4783-9f9e-ccbb70c3d8d1",
+        "productKey": "gold-rimmed-champagne-glasses",
+        "productType": {
+          "typeId": "product-type",
+          "id": "5ca17606-7b7d-4975-9be0-1517c98b201d",
+          "version": 1
+        },
+        "productSlug": {
+          "en-US": "gold-rimmed-champagne-glasses",
+          "en-GB": "gold-rimmed-champagne-glasses",
+          "de-DE": "champagnerglser-mit-goldrand"
+        },
+        "name": {
+          "en-US": "Gold Rimmed Champagne Glasses",
+          "en-GB": "Gold Rimmed Champagne Glasses",
+          "de-DE": "Champagnergläser mit Goldrand"
+        },
+        "variant": {
+          "id": 1,
+          "sku": "GRCG-01",
+          "key": "goldRimmedChampagneGlasses01",
+          "prices": [
+            {
+              "id": "c5b84a96-b9af-4f1b-a917-c7c48e72065f",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 3000,
+                "fractionDigits": 2
+              },
+              "key": "3000EUR",
+              "country": "DE"
+            },
+            {
+              "id": "da2ee06a-1bd0-4369-bf29-e39e7854ffdd",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "GBP",
+                "centAmount": 3000,
+                "fractionDigits": 2
+              },
+              "key": "3000GBP",
+              "country": "GB"
+            },
+            {
+              "id": "44bb7104-8baa-4835-a6b2-1d67794efb7d",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "USD",
+                "centAmount": 3000,
+                "fractionDigits": 2
+              },
+              "key": "3000USD",
+              "country": "US"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://storage.googleapis.com/merchant-center-europe/sample-data/b2c-lifestyle/Gold_Rimmed_Champagne_Glasses-1.1.jpeg",
+              "dimensions": {
+                "w": 2192,
+                "h": 3288
+              }
+            },
+            {
+              "url": "https://storage.googleapis.com/merchant-center-europe/sample-data/b2c-lifestyle/Gold_Rimmed_Champagne_Glasses-1.2.jpeg",
+              "dimensions": {
+                "w": 5143,
+                "h": 4113
+              }
+            },
+            {
+              "url": "https://storage.googleapis.com/merchant-center-europe/sample-data/b2c-lifestyle/Gold_Rimmed_Champagne_Glasses-1.4.jpeg",
+              "dimensions": {
+                "w": 6869,
+                "h": 3435
+              }
+            },
+            {
+              "url": "https://storage.googleapis.com/merchant-center-europe/sample-data/b2c-lifestyle/Gold_Rimmed_Champagne_Glasses-1.3.jpeg",
+              "dimensions": {
+                "w": 8080,
+                "h": 5077
+              }
+            }
+          ],
+          "attributes": [
+            {
+              "name": "search-finish",
+              "value": {
+                "key": "gold",
+                "label": {
+                  "en-US": "Gold",
+                  "en-GB": "Gold",
+                  "de-DE": "Gold"
+                }
+              }
+            },
+            {
+              "name": "finish-code",
+              "value": "#FFD700"
+            },
+            {
+              "name": "productspec",
+              "value": {
+                "en-GB": "- Set of 5 glasses\n- Imported crystal\n- Gold polish on the rims",
+                "de-DE": "- Set mit 5 Gläsern\n- Importierter Kristall\n- Goldpolitur an den Felgen",
+                "en-US": "- Set of 5 glasses\n- Imported crystal\n- Gold polish on the rims"
+              }
+            },
+            {
+              "name": "finish-label",
+              "value": {
+                "en-GB": "Gold",
+                "de-DE": "Gold",
+                "en-US": "Gold"
+              }
+            },
+            {
+              "name": "color-label",
+              "value": {
+                "en-GB": "Transparent",
+                "de-DE": "Transparent",
+                "en-US": "Transparent"
+              }
+            },
+            {
+              "name": "search-color",
+              "value": {
+                "key": "transparent",
+                "label": {
+                  "en-US": "Transparent",
+                  "en-GB": "Transparent",
+                  "de-DE": "Transparent"
+                }
+              }
+            },
+            {
+              "name": "color-code",
+              "value": "transparent"
+            }
+          ],
+          "assets": [],
+          "availability": {
+            "isOnStock": false,
+            "availableQuantity": 0,
+            "version": 1,
+            "id": "c57a7eaa-ea45-4e34-b3ba-094d892a2e6d"
+          }
+        },
+        "price": {
+          "id": "c5b84a96-b9af-4f1b-a917-c7c48e72065f",
+          "value": {
+            "type": "centPrecision",
+            "currencyCode": "EUR",
+            "centAmount": 3000,
+            "fractionDigits": 2
+          },
+          "key": "3000EUR",
+          "country": "DE"
+        },
+        "quantity": 1,
+        "discountedPricePerQuantity": [],
+        "taxRate": {
+          "name": "Standard VAT for Germany",
+          "amount": 0.19,
+          "includedInPrice": true,
+          "country": "DE",
+          "id": "pv4WdebX",
+          "key": "vat-standard-de",
+          "subRates": [],
+          "taxRoundingTarget": "Net"
+        },
+        "perMethodTaxRate": [],
+        "addedAt": "2026-10-12T10:21:38.700Z",
+        "lastModifiedAt": "2026-10-12T10:21:38.700Z",
+        "state": [
+          {
+            "quantity": 1,
+            "state": {
+              "typeId": "state",
+              "id": "45cead2e-88dd-4ad8-b331-95252066e72c"
+            }
+          }
+        ],
+        "priceMode": "Platform",
+        "lineItemMode": "Standard",
+        "priceRoundingMode": "HalfEven",
+        "totalPrice": {
+          "type": "centPrecision",
+          "currencyCode": "EUR",
+          "centAmount": 3000,
+          "fractionDigits": 2
+        },
+        "taxedPrice": {
+          "totalNet": {
+            "type": "centPrecision",
+            "currencyCode": "EUR",
+            "centAmount": 2521,
+            "fractionDigits": 2
+          },
+          "totalGross": {
+            "type": "centPrecision",
+            "currencyCode": "EUR",
+            "centAmount": 3000,
+            "fractionDigits": 2
+          },
+          "taxPortions": [
+            {
+              "rate": 0.19,
+              "amount": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 479,
+                "fractionDigits": 2
+              },
+              "name": "Standard VAT for Germany"
+            }
+          ],
+          "totalTax": {
+            "type": "centPrecision",
+            "currencyCode": "EUR",
+            "centAmount": 479,
+            "fractionDigits": 2
+          }
+        },
+        "taxedPricePortions": []
+      },
+      {
+        "id": "98df8399-10a5-45cc-a8e4-f47e5caffbb2",
+        "productId": "96592a91-cb8a-43c8-ba18-b73dd33de516",
+        "productKey": "minimalist-modern-side-table",
+        "productType": {
+          "typeId": "product-type",
+          "id": "5ca17606-7b7d-4975-9be0-1517c98b201d",
+          "version": 1
+        },
+        "productSlug": {
+          "en-GB": "minimalist-modern-side-table",
+          "de-DE": "minimalistischer-moderner-beistelltisch",
+          "en-US": "minimalist-modern-side-table"
+        },
+        "name": {
+          "en-GB": "Minimalist Modern Side Table",
+          "de-DE": "Minimalistischer Moderner Beistelltisch",
+          "en-US": "Minimalist Modern Side Table"
+        },
+        "variant": {
+          "id": 1,
+          "sku": "MMST-01",
+          "key": "minimalistModernSideTable01",
+          "prices": [
+            {
+              "id": "e3ea0a27-75ea-4099-afaf-efa6d1fa4858",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 12000,
+                "fractionDigits": 2
+              },
+              "key": "12000EUR",
+              "country": "DE"
+            },
+            {
+              "id": "b8e3c549-79e7-4fd5-bf7c-5ba8d8e47149",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "GBP",
+                "centAmount": 12000,
+                "fractionDigits": 2
+              },
+              "key": "12000GBP",
+              "country": "GB"
+            },
+            {
+              "id": "3ef3756f-7a38-4497-9263-50362ecf066a",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "USD",
+                "centAmount": 12000,
+                "fractionDigits": 2
+              },
+              "key": "12000USD",
+              "country": "US"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://storage.googleapis.com/merchant-center-europe/sample-data/b2c-lifestyle/Minimalist_Modern_Side_Table-1.1.jpeg",
+              "dimensions": {
+                "w": 6000,
+                "h": 6232
+              }
+            }
+          ],
+          "attributes": [
+            {
+              "name": "search-finish",
+              "value": {
+                "key": "brown",
+                "label": {
+                  "en-US": "Brown",
+                  "en-GB": "Brown",
+                  "de-DE": "Braun"
+                }
+              }
+            },
+            {
+              "name": "finish-code",
+              "value": "#8b4513"
+            },
+            {
+              "name": "productspec",
+              "value": {
+                "en-US": "- 4 legged side table\n- Walnut legs\n- Pre-assembled",
+                "en-GB": "- 4 legged side table\n- Walnut legs\n- Pre-assembled",
+                "de-DE": "- 4 legged side table\n- Walnut legs\n- Pre-assembled"
+              }
+            },
+            {
+              "name": "finish-label",
+              "value": {
+                "en-GB": "Sattel braun",
+                "de-DE": "Saddle Brown",
+                "en-US": "Saddle Brown"
+              }
+            },
+            {
+              "name": "color-label",
+              "value": {
+                "en-GB": "Weiß",
+                "de-DE": "White",
+                "en-US": "White"
+              }
+            },
+            {
+              "name": "search-color",
+              "value": {
+                "key": "white",
+                "label": {
+                  "en-US": "White",
+                  "en-GB": "White",
+                  "de-DE": "Weiß"
+                }
+              }
+            },
+            {
+              "name": "color-code",
+              "value": "#FFFFFF"
+            }
+          ],
+          "assets": [],
+          "availability": {
+            "isOnStock": true,
+            "availableQuantity": 72,
+            "version": 1,
+            "id": "a18aaa00-13e0-4557-ba60-26c8eb28bb1c"
+          }
+        },
+        "price": {
+          "id": "e3ea0a27-75ea-4099-afaf-efa6d1fa4858",
+          "value": {
+            "type": "centPrecision",
+            "currencyCode": "EUR",
+            "centAmount": 12000,
+            "fractionDigits": 2
+          },
+          "key": "12000EUR",
+          "country": "DE"
+        },
+        "quantity": 1,
+        "discountedPricePerQuantity": [],
+        "taxRate": {
+          "name": "Standard VAT for Germany",
+          "amount": 0.19,
+          "includedInPrice": true,
+          "country": "DE",
+          "id": "pv4WdebX",
+          "key": "vat-standard-de",
+          "subRates": [],
+          "taxRoundingTarget": "Net"
+        },
+        "perMethodTaxRate": [],
+        "addedAt": "2026-10-12T10:21:38.700Z",
+        "lastModifiedAt": "2026-10-12T10:21:38.700Z",
+        "state": [
+          {
+            "quantity": 1,
+            "state": {
+              "typeId": "state",
+              "id": "45cead2e-88dd-4ad8-b331-95252066e72c"
+            }
+          }
+        ],
+        "priceMode": "Platform",
+        "lineItemMode": "Standard",
+        "priceRoundingMode": "HalfEven",
+        "totalPrice": {
+          "type": "centPrecision",
+          "currencyCode": "EUR",
+          "centAmount": 12000,
+          "fractionDigits": 2
+        },
+        "taxedPrice": {
+          "totalNet": {
+            "type": "centPrecision",
+            "currencyCode": "EUR",
+            "centAmount": 10084,
+            "fractionDigits": 2
+          },
+          "totalGross": {
+            "type": "centPrecision",
+            "currencyCode": "EUR",
+            "centAmount": 12000,
+            "fractionDigits": 2
+          },
+          "taxPortions": [
+            {
+              "rate": 0.19,
+              "amount": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 1916,
+                "fractionDigits": 2
+              },
+              "name": "Standard VAT for Germany"
+            }
+          ],
+          "totalTax": {
+            "type": "centPrecision",
+            "currencyCode": "EUR",
+            "centAmount": 1916,
+            "fractionDigits": 2
+          }
+        },
+        "taxedPricePortions": []
+      }
+    ],
+    "customLineItems": [],
+    "transactionFee": true,
+    "discountCodes": [],
+    "directDiscounts": [],
+    "cart": {
+      "typeId": "cart",
+      "id": "3f1b52ec-0a84-4576-9e45-f6af0f063236"
+    },
+    "billingAddress": {
+      "firstName": "Jennifer",
+      "lastName": "Schmidt",
+      "streetName": "Hauptstrasse",
+      "streetNumber": "25",
+      "postalCode": "14467",
+      "city": "Potsdam",
+      "country": "DE"
+    },
+    "itemShippingAddresses": [],
+    "refusedGifts": [],
+    "store": {
+      "typeId": "store",
+      "key": "b2c-retail-store"
+    }
+  },
+  {
+    "type": "Order",
+    "id": "cfaa0544-01b2-44d1-aab9-48b9329a1622",
+    "version": 1,
+    "versionModifiedAt": "2026-10-12T10:21:38.917Z",
+    "lastMessageSequenceNumber": 1,
+    "createdAt": "2026-10-12T10:21:38.896Z",
+    "lastModifiedAt": "2026-10-12T10:21:38.896Z",
+    "lastModifiedBy": {
+      "isPlatformClient": true
+    },
+    "createdBy": {
+      "isPlatformClient": true
+    },
+    "customerId": "fbac5344-f5da-47f2-acb9-69cf13824858",
+    "customerEmail": "seb@example.uk",
+    "totalPrice": {
+      "type": "centPrecision",
+      "currencyCode": "GBP",
+      "centAmount": 587098,
+      "fractionDigits": 2
+    },
+    "taxedPrice": {
+      "totalNet": {
+        "type": "centPrecision",
+        "currencyCode": "GBP",
+        "centAmount": 489249,
+        "fractionDigits": 2
+      },
+      "totalGross": {
+        "type": "centPrecision",
+        "currencyCode": "GBP",
+        "centAmount": 587098,
+        "fractionDigits": 2
+      },
+      "taxPortions": [
+        {
+          "rate": 0.2,
+          "amount": {
+            "type": "centPrecision",
+            "currencyCode": "GBP",
+            "centAmount": 97849,
+            "fractionDigits": 2
+          },
+          "name": "Standard VAT for UK"
+        }
+      ],
+      "totalTax": {
+        "type": "centPrecision",
+        "currencyCode": "GBP",
+        "centAmount": 97849,
+        "fractionDigits": 2
+      }
+    },
+    "country": "GB",
+    "taxedShippingPrice": {
+      "totalNet": {
+        "type": "centPrecision",
+        "currencyCode": "GBP",
+        "centAmount": 0,
+        "fractionDigits": 2
+      },
+      "totalGross": {
+        "type": "centPrecision",
+        "currencyCode": "GBP",
+        "centAmount": 0,
+        "fractionDigits": 2
+      },
+      "taxPortions": [
+        {
+          "rate": 0.2,
+          "amount": {
+            "type": "centPrecision",
+            "currencyCode": "GBP",
+            "centAmount": 0,
+            "fractionDigits": 2
+          },
+          "name": "Standard VAT for UK"
+        }
+      ],
+      "totalTax": {
+        "type": "centPrecision",
+        "currencyCode": "GBP",
+        "centAmount": 0,
+        "fractionDigits": 2
+      }
+    },
+    "orderState": "Open",
+    "shipmentState": "Pending",
+    "paymentState": "Pending",
+    "syncInfo": [],
+    "returnInfo": [],
+    "priceRoundingMode": "HalfEven",
+    "taxMode": "Platform",
+    "inventoryMode": "None",
+    "taxRoundingMode": "HalfEven",
+    "taxCalculationMode": "LineItemLevel",
+    "origin": "Merchant",
+    "shippingMode": "Single",
+    "shippingInfo": {
+      "shippingMethodName": "Express Shipping",
+      "price": {
+        "type": "centPrecision",
+        "currencyCode": "GBP",
+        "centAmount": 75000,
+        "fractionDigits": 2
+      },
+      "shippingRate": {
+        "price": {
+          "type": "centPrecision",
+          "currencyCode": "GBP",
+          "centAmount": 75000,
+          "fractionDigits": 2
+        },
+        "tiers": []
+      },
+      "taxRate": {
+        "name": "Standard VAT for UK",
+        "amount": 0.2,
+        "includedInPrice": true,
+        "country": "GB",
+        "id": "SBc2YGOW",
+        "key": "vat-standard-uk",
+        "subRates": [],
+        "taxRoundingTarget": "Net"
+      },
+      "taxCategory": {
+        "typeId": "tax-category",
+        "id": "4866c807-2a2b-49c7-bb64-9bf75c879000"
+      },
+      "deliveries": [],
+      "shippingMethod": {
+        "typeId": "shipping-method",
+        "id": "a66164c2-c888-4870-af32-8197268d6a39"
+      },
+      "discountedPrice": {
+        "value": {
+          "type": "centPrecision",
+          "currencyCode": "GBP",
+          "centAmount": 0,
+          "fractionDigits": 2
+        },
+        "includedDiscounts": [
+          {
+            "discount": {
+              "typeId": "cart-discount",
+              "id": "0dcfbd16-4f5a-45d9-bc58-a33d2d9e23ab"
+            },
+            "discountedAmount": {
+              "type": "centPrecision",
+              "currencyCode": "GBP",
+              "centAmount": 75000,
+              "fractionDigits": 2
+            }
+          }
+        ]
+      },
+      "taxedPrice": {
+        "totalNet": {
+          "type": "centPrecision",
+          "currencyCode": "GBP",
+          "centAmount": 0,
+          "fractionDigits": 2
+        },
+        "totalGross": {
+          "type": "centPrecision",
+          "currencyCode": "GBP",
+          "centAmount": 0,
+          "fractionDigits": 2
+        },
+        "taxPortions": [
+          {
+            "rate": 0.2,
+            "amount": {
+              "type": "centPrecision",
+              "currencyCode": "GBP",
+              "centAmount": 0,
+              "fractionDigits": 2
+            },
+            "name": "Standard VAT for UK"
+          }
+        ],
+        "totalTax": {
+          "type": "centPrecision",
+          "currencyCode": "GBP",
+          "centAmount": 0,
+          "fractionDigits": 2
+        }
+      },
+      "shippingMethodState": "MatchesCart"
+    },
+    "shippingAddress": {
+      "firstName": "Sebastian",
+      "lastName": "Smith",
+      "streetName": "Center Street",
+      "streetNumber": "1",
+      "postalCode": "PO167GZ",
+      "city": "Fareham",
+      "country": "GB"
+    },
+    "shipping": [],
+    "discountTypeCombination": {
+      "type": "Stacking"
+    },
+    "lineItems": [
+      {
+        "id": "444942d3-945d-4413-9666-fc6a65ccf4d6",
+        "productId": "92a4ccc2-91b1-482c-bc1c-a8ddec30926e",
+        "productKey": "rustic-country-queen-bed",
+        "productType": {
+          "typeId": "product-type",
+          "id": "5ca17606-7b7d-4975-9be0-1517c98b201d",
+          "version": 1
+        },
+        "productSlug": {
+          "en-US": "rustic-country-queen-bed",
+          "en-GB": "rustic-country-queen-bed",
+          "de-DE": "rustikales-country-queen-bett"
+        },
+        "name": {
+          "en-US": "Rustic Country Queen Bed",
+          "en-GB": "Rustic Country Queen Bed",
+          "de-DE": "Rustikales Queensize-Bett im Landhausstil"
+        },
+        "variant": {
+          "id": 1,
+          "sku": "RCQB-01",
+          "key": "rusticCountryQueenBed01",
+          "prices": [
+            {
+              "id": "9e258b34-66b4-4a2f-b857-f4edc77b97e5",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 329900,
+                "fractionDigits": 2
+              },
+              "key": "329900EUR",
+              "country": "DE"
+            },
+            {
+              "id": "468a988a-8215-4796-aabd-eb26886d3f3a",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "GBP",
+                "centAmount": 329900,
+                "fractionDigits": 2
+              },
+              "key": "329900GBP",
+              "country": "GB"
+            },
+            {
+              "id": "e54b70b2-c059-457c-aa8b-217d0048c757",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "USD",
+                "centAmount": 329900,
+                "fractionDigits": 2
+              },
+              "key": "329900USD",
+              "country": "US"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://storage.googleapis.com/merchant-center-europe/sample-data/b2c-lifestyle/Rustic_Country_Queen_Bed-1.1.jpeg",
+              "dimensions": {
+                "w": 5000,
+                "h": 5000
+              }
+            }
+          ],
+          "attributes": [
+            {
+              "name": "search-finish",
+              "value": {
+                "key": "brown",
+                "label": {
+                  "en-US": "Brown",
+                  "en-GB": "Brown",
+                  "de-DE": "Braun"
+                }
+              }
+            },
+            {
+              "name": "finish-code",
+              "value": "#8b4513"
+            },
+            {
+              "name": "productspec",
+              "value": {
+                "en-US": "- Leather upholstery\n- Standard Queen size\n- Assembly on site",
+                "en-GB": "- Leather upholstery\n- Standard Queen size\n- Assembly on site",
+                "de-DE": "- Leather upholstery\n- Standard Queen size\n- Assembly on site"
+              }
+            },
+            {
+              "name": "finish-label",
+              "value": {
+                "en-GB": "Saddle Brown",
+                "de-DE": "Sattel braun",
+                "en-US": "Saddle Brown"
+              }
+            },
+            {
+              "name": "color-label",
+              "value": {
+                "en-GB": "Tan",
+                "de-DE": "Bräunen",
+                "en-US": "Tan"
+              }
+            },
+            {
+              "name": "search-color",
+              "value": {
+                "key": "yellow",
+                "label": {
+                  "en-US": "Yellow",
+                  "en-GB": "Yellow",
+                  "de-DE": "Gelb"
+                }
+              }
+            },
+            {
+              "name": "color-code",
+              "value": "#D2B48C"
+            }
+          ],
+          "assets": [],
+          "availability": {
+            "isOnStock": true,
+            "availableQuantity": 76,
+            "version": 1,
+            "id": "dad165dd-8cb1-4ad0-b315-49f8e5a816f1"
+          }
+        },
+        "price": {
+          "id": "468a988a-8215-4796-aabd-eb26886d3f3a",
+          "value": {
+            "type": "centPrecision",
+            "currencyCode": "GBP",
+            "centAmount": 329900,
+            "fractionDigits": 2
+          },
+          "key": "329900GBP",
+          "country": "GB"
+        },
+        "quantity": 1,
+        "discountedPricePerQuantity": [],
+        "taxRate": {
+          "name": "Standard VAT for UK",
+          "amount": 0.2,
+          "includedInPrice": true,
+          "country": "GB",
+          "id": "SBc2YGOW",
+          "key": "vat-standard-uk",
+          "subRates": [],
+          "taxRoundingTarget": "Net"
+        },
+        "perMethodTaxRate": [],
+        "addedAt": "2026-10-12T10:21:38.700Z",
+        "lastModifiedAt": "2026-10-12T10:21:38.700Z",
+        "state": [
+          {
+            "quantity": 1,
+            "state": {
+              "typeId": "state",
+              "id": "45cead2e-88dd-4ad8-b331-95252066e72c"
+            }
+          }
+        ],
+        "priceMode": "Platform",
+        "lineItemMode": "Standard",
+        "priceRoundingMode": "HalfEven",
+        "totalPrice": {
+          "type": "centPrecision",
+          "currencyCode": "GBP",
+          "centAmount": 329900,
+          "fractionDigits": 2
+        },
+        "taxedPrice": {
+          "totalNet": {
+            "type": "centPrecision",
+            "currencyCode": "GBP",
+            "centAmount": 274917,
+            "fractionDigits": 2
+          },
+          "totalGross": {
+            "type": "centPrecision",
+            "currencyCode": "GBP",
+            "centAmount": 329900,
+            "fractionDigits": 2
+          },
+          "taxPortions": [
+            {
+              "rate": 0.2,
+              "amount": {
+                "type": "centPrecision",
+                "currencyCode": "GBP",
+                "centAmount": 54983,
+                "fractionDigits": 2
+              },
+              "name": "Standard VAT for UK"
+            }
+          ],
+          "totalTax": {
+            "type": "centPrecision",
+            "currencyCode": "GBP",
+            "centAmount": 54983,
+            "fractionDigits": 2
+          }
+        },
+        "taxedPricePortions": []
+      },
+      {
+        "id": "5898ff3a-1424-47da-baba-e4c1213d5cf1",
+        "productId": "8ab24660-e980-4864-8a12-10f0aa83274c",
+        "productKey": "modern-landscape-painting",
+        "productType": {
+          "typeId": "product-type",
+          "id": "5ca17606-7b7d-4975-9be0-1517c98b201d",
+          "version": 1
+        },
+        "productSlug": {
+          "en-GB": "modern-landscape-painting",
+          "de-DE": "moderne-landschaftsmalerei",
+          "en-US": "modern-landscape-painting"
+        },
+        "name": {
+          "en-GB": "Modern Landscape Painting",
+          "de-DE": "Moderne Landschaftsmalerei",
+          "en-US": "Modern Landscape Painting"
+        },
+        "variant": {
+          "id": 1,
+          "sku": "MLP-01",
+          "key": "modernLandscapePainting01",
+          "prices": [
+            {
+              "id": "1aa0d5d1-98ff-4c2b-841d-9c1f6082a766",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 5299,
+                "fractionDigits": 2
+              },
+              "key": "5299EUR",
+              "country": "DE"
+            },
+            {
+              "id": "77e9aa6f-7a95-4655-93ea-e69e0dc3cdff",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "GBP",
+                "centAmount": 5299,
+                "fractionDigits": 2
+              },
+              "key": "5299GBP",
+              "country": "GB"
+            },
+            {
+              "id": "f5aa41dd-8092-4d6b-b3ec-0610f3d30083",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "USD",
+                "centAmount": 5299,
+                "fractionDigits": 2
+              },
+              "key": "5299USD",
+              "country": "US"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://storage.googleapis.com/merchant-center-europe/sample-data/b2c-lifestyle/Modern_Landscape_Painting-1.1.jpeg",
+              "dimensions": {
+                "w": 5313,
+                "h": 5355
+              }
+            }
+          ],
+          "attributes": [
+            {
+              "name": "productspec",
+              "value": {
+                "en-GB": "- Oil on canvas\n- Frame not included\n- 3ft by 4ft",
+                "de-DE": "- Öl auf Leinwand\n- Rahmen nicht im Lieferumfang enthalten\n- 3 Fuß mal 4 Fuß",
+                "en-US": "- Oil on canvas\n- Frame not included\n- 3ft by 4ft"
+              }
+            },
+            {
+              "name": "search-color",
+              "value": {
+                "key": "blue",
+                "label": {
+                  "en-US": "Blue",
+                  "en-GB": "Blue",
+                  "de-DE": "Blau"
+                }
+              }
+            },
+            {
+              "name": "color-label",
+              "value": {
+                "en-GB": "Sky Blue",
+                "de-DE": "Himmel blau",
+                "en-US": "Sky Blue"
+              }
+            },
+            {
+              "name": "color-code",
+              "value": "#87CEEB"
+            }
+          ],
+          "assets": [],
+          "availability": {
+            "isOnStock": true,
+            "availableQuantity": 84,
+            "version": 1,
+            "id": "66237325-feac-43ff-bee2-aff039bb7234"
+          }
+        },
+        "price": {
+          "id": "77e9aa6f-7a95-4655-93ea-e69e0dc3cdff",
+          "value": {
+            "type": "centPrecision",
+            "currencyCode": "GBP",
+            "centAmount": 5299,
+            "fractionDigits": 2
+          },
+          "key": "5299GBP",
+          "country": "GB"
+        },
+        "quantity": 1,
+        "discountedPricePerQuantity": [],
+        "taxRate": {
+          "name": "Standard VAT for UK",
+          "amount": 0.2,
+          "includedInPrice": true,
+          "country": "GB",
+          "id": "SBc2YGOW",
+          "key": "vat-standard-uk",
+          "subRates": [],
+          "taxRoundingTarget": "Net"
+        },
+        "perMethodTaxRate": [],
+        "addedAt": "2026-10-12T10:21:38.700Z",
+        "lastModifiedAt": "2026-10-12T10:21:38.700Z",
+        "state": [
+          {
+            "quantity": 1,
+            "state": {
+              "typeId": "state",
+              "id": "45cead2e-88dd-4ad8-b331-95252066e72c"
+            }
+          }
+        ],
+        "priceMode": "Platform",
+        "lineItemMode": "Standard",
+        "priceRoundingMode": "HalfEven",
+        "totalPrice": {
+          "type": "centPrecision",
+          "currencyCode": "GBP",
+          "centAmount": 5299,
+          "fractionDigits": 2
+        },
+        "taxedPrice": {
+          "totalNet": {
+            "type": "centPrecision",
+            "currencyCode": "GBP",
+            "centAmount": 4416,
+            "fractionDigits": 2
+          },
+          "totalGross": {
+            "type": "centPrecision",
+            "currencyCode": "GBP",
+            "centAmount": 5299,
+            "fractionDigits": 2
+          },
+          "taxPortions": [
+            {
+              "rate": 0.2,
+              "amount": {
+                "type": "centPrecision",
+                "currencyCode": "GBP",
+                "centAmount": 883,
+                "fractionDigits": 2
+              },
+              "name": "Standard VAT for UK"
+            }
+          ],
+          "totalTax": {
+            "type": "centPrecision",
+            "currencyCode": "GBP",
+            "centAmount": 883,
+            "fractionDigits": 2
+          }
+        },
+        "taxedPricePortions": []
+      },
+      {
+        "id": "4e2facbc-ae2b-453d-9b64-41a2f42589bf",
+        "productId": "a256b1b1-a9e5-4d64-ae56-7393ed70d65f",
+        "productKey": "geometric-pillow-case",
+        "productType": {
+          "typeId": "product-type",
+          "id": "5ca17606-7b7d-4975-9be0-1517c98b201d",
+          "version": 1
+        },
+        "productSlug": {
+          "en-US": "geometric-pillow-case",
+          "en-GB": "geometric-pillow-case",
+          "de-DE": "geometrischer-kissenbezug"
+        },
+        "name": {
+          "en-US": "Geometric Pillow Case",
+          "en-GB": "Geometric Pillow Case",
+          "de-DE": "Geometrischer Kissenbezug"
+        },
+        "variant": {
+          "id": 1,
+          "sku": "GPC-01",
+          "key": "geometricPillowCase01",
+          "prices": [
+            {
+              "id": "2c508ac7-f468-49f9-a7d4-57e74081506d",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 1999,
+                "fractionDigits": 2
+              },
+              "key": "1999EUR",
+              "country": "DE"
+            },
+            {
+              "id": "82a74f95-3f18-4f66-b3d3-524d6021a23b",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "GBP",
+                "centAmount": 1999,
+                "fractionDigits": 2
+              },
+              "key": "1999GBP",
+              "country": "GB"
+            },
+            {
+              "id": "4599a852-09e6-40bb-80dc-949440443b5e",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "USD",
+                "centAmount": 1999,
+                "fractionDigits": 2
+              },
+              "key": "1999USD",
+              "country": "US"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://storage.googleapis.com/merchant-center-europe/sample-data/b2c-lifestyle/Geometric_Pillow_Case-1.1.jpeg",
+              "dimensions": {
+                "w": 5000,
+                "h": 5000
+              }
+            },
+            {
+              "url": "https://storage.googleapis.com/merchant-center-europe/sample-data/b2c-lifestyle/Geometric_Pillow_Case-1.2.jpeg",
+              "dimensions": {
+                "w": 5000,
+                "h": 5000
+              }
+            }
+          ],
+          "attributes": [
+            {
+              "name": "productspec",
+              "value": {
+                "en-US": "- Velvet fabric\n- Cotton lining\n- Pillow case comes with zip for easy removal\n- Pillow not included\n- Washable\n",
+                "en-GB": "- Velvet fabric\n- Cotton lining\n- Pillow case comes with zip for easy removal\n- Pillow not included\n- Washable",
+                "de-DE": "- Velvet fabric\n- Cotton lining\n- Pillow case comes with zip for easy removal\n- Pillow not included\n- Washable"
+              }
+            },
+            {
+              "name": "search-color",
+              "value": {
+                "key": "silver",
+                "label": {
+                  "en-US": "Silver",
+                  "en-GB": "Silver",
+                  "de-DE": "Silber"
+                }
+              }
+            },
+            {
+              "name": "color-label",
+              "value": {
+                "en-GB": "Silver",
+                "de-DE": "Silber",
+                "en-US": "Silver"
+              }
+            },
+            {
+              "name": "color-code",
+              "value": "#C0C0C0"
+            }
+          ],
+          "assets": [],
+          "availability": {
+            "isOnStock": true,
+            "availableQuantity": 81,
+            "version": 1,
+            "id": "e05fab27-b3a0-4977-8600-cb06bc36d3fc"
+          }
+        },
+        "price": {
+          "id": "82a74f95-3f18-4f66-b3d3-524d6021a23b",
+          "value": {
+            "type": "centPrecision",
+            "currencyCode": "GBP",
+            "centAmount": 1999,
+            "fractionDigits": 2
+          },
+          "key": "1999GBP",
+          "country": "GB"
+        },
+        "quantity": 1,
+        "discountedPricePerQuantity": [],
+        "taxRate": {
+          "name": "Standard VAT for UK",
+          "amount": 0.2,
+          "includedInPrice": true,
+          "country": "GB",
+          "id": "SBc2YGOW",
+          "key": "vat-standard-uk",
+          "subRates": [],
+          "taxRoundingTarget": "Net"
+        },
+        "perMethodTaxRate": [],
+        "addedAt": "2026-10-12T10:21:38.700Z",
+        "lastModifiedAt": "2026-10-12T10:21:38.700Z",
+        "state": [
+          {
+            "quantity": 1,
+            "state": {
+              "typeId": "state",
+              "id": "45cead2e-88dd-4ad8-b331-95252066e72c"
+            }
+          }
+        ],
+        "priceMode": "Platform",
+        "lineItemMode": "Standard",
+        "priceRoundingMode": "HalfEven",
+        "totalPrice": {
+          "type": "centPrecision",
+          "currencyCode": "GBP",
+          "centAmount": 1999,
+          "fractionDigits": 2
+        },
+        "taxedPrice": {
+          "totalNet": {
+            "type": "centPrecision",
+            "currencyCode": "GBP",
+            "centAmount": 1666,
+            "fractionDigits": 2
+          },
+          "totalGross": {
+            "type": "centPrecision",
+            "currencyCode": "GBP",
+            "centAmount": 1999,
+            "fractionDigits": 2
+          },
+          "taxPortions": [
+            {
+              "rate": 0.2,
+              "amount": {
+                "type": "centPrecision",
+                "currencyCode": "GBP",
+                "centAmount": 333,
+                "fractionDigits": 2
+              },
+              "name": "Standard VAT for UK"
+            }
+          ],
+          "totalTax": {
+            "type": "centPrecision",
+            "currencyCode": "GBP",
+            "centAmount": 333,
+            "fractionDigits": 2
+          }
+        },
+        "taxedPricePortions": []
+      },
+      {
+        "id": "f2983545-9471-4853-a422-f56a06164339",
+        "productId": "bdac5c1e-8d95-4da1-a5bd-d81018f02255",
+        "productKey": "modern-three-seater-sofa",
+        "productType": {
+          "typeId": "product-type",
+          "id": "5ca17606-7b7d-4975-9be0-1517c98b201d",
+          "version": 1
+        },
+        "productSlug": {
+          "en-GB": "modern-three-seater-sofa",
+          "de-DE": "modernes-dreisitzer-sofa",
+          "en-US": "modern-three-seater-sofa"
+        },
+        "name": {
+          "en-GB": "Modern Three Seater Sofa",
+          "de-DE": "Modernes Dreisitzer-Sofa",
+          "en-US": "Modern Three Seater Sofa"
+        },
+        "variant": {
+          "id": 1,
+          "sku": "MTSS-01",
+          "key": "modernThreeSeaterSofa01",
+          "prices": [
+            {
+              "id": "a5bff5fa-e77e-4440-a8b0-078f845fb5e6",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 249900,
+                "fractionDigits": 2
+              },
+              "key": "249900EUR",
+              "country": "DE"
+            },
+            {
+              "id": "8cd1d17a-a22a-4b6b-ad06-b921b58e2a32",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "GBP",
+                "centAmount": 249900,
+                "fractionDigits": 2
+              },
+              "key": "249900GBP",
+              "country": "GB"
+            },
+            {
+              "id": "8f9fae98-44fc-4076-b678-3351b928f43c",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "USD",
+                "centAmount": 249900,
+                "fractionDigits": 2
+              },
+              "key": "249900USD",
+              "country": "US"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://storage.googleapis.com/merchant-center-europe/sample-data/b2c-lifestyle/Modern_Three_Seater_Sofa-1.2.jpeg",
+              "dimensions": {
+                "w": 2500,
+                "h": 2500
+              }
+            },
+            {
+              "url": "https://storage.googleapis.com/merchant-center-europe/sample-data/b2c-lifestyle/Modern_Three_Seater_Sofa-1.1.jpeg",
+              "dimensions": {
+                "w": 2500,
+                "h": 2500
+              }
+            },
+            {
+              "url": "https://storage.googleapis.com/merchant-center-europe/sample-data/b2c-lifestyle/Modern_Three_Seater_Sofa-1.4.jpeg",
+              "dimensions": {
+                "w": 2500,
+                "h": 2500
+              }
+            },
+            {
+              "url": "https://storage.googleapis.com/merchant-center-europe/sample-data/b2c-lifestyle/Modern_Three_Seater_Sofa-1.3.jpeg",
+              "dimensions": {
+                "w": 5760,
+                "h": 3840
+              }
+            }
+          ],
+          "attributes": [
+            {
+              "name": "search-finish",
+              "value": {
+                "key": "brown",
+                "label": {
+                  "en-US": "Brown",
+                  "en-GB": "Brown",
+                  "de-DE": "Braun"
+                }
+              }
+            },
+            {
+              "name": "finish-code",
+              "value": "#8b4513"
+            },
+            {
+              "name": "productspec",
+              "value": {
+                "en-US": "- Velvet upholstery\n- 3-seater sofa\n- Assembled on site",
+                "en-GB": "- Velvet upholstery\n- 3-seater sofa\n- Assembled on site",
+                "de-DE": "- Velvet upholstery\n- 3-seater sofa\n- Assembled on site"
+              }
+            },
+            {
+              "name": "finish-label",
+              "value": {
+                "en-GB": "Saddle Brown",
+                "de-DE": "Sattel braun",
+                "en-US": "Saddle Brown"
+              }
+            },
+            {
+              "name": "color-label",
+              "value": {
+                "en-GB": "Dark Slate Grey",
+                "de-DE": "Dunkles Schiefer grau",
+                "en-US": "Dark Slate Gray"
+              }
+            },
+            {
+              "name": "search-color",
+              "value": {
+                "key": "gray",
+                "label": {
+                  "en-US": "Gray",
+                  "en-GB": "Grey",
+                  "de-DE": "Grau"
+                }
+              }
+            },
+            {
+              "name": "color-code",
+              "value": "#2F4F4F"
+            }
+          ],
+          "assets": [],
+          "availability": {
+            "isOnStock": true,
+            "availableQuantity": 94,
+            "version": 1,
+            "id": "a0bab99e-b9f5-417b-bd72-d3053bdd1e55"
+          }
+        },
+        "price": {
+          "id": "8cd1d17a-a22a-4b6b-ad06-b921b58e2a32",
+          "value": {
+            "type": "centPrecision",
+            "currencyCode": "GBP",
+            "centAmount": 249900,
+            "fractionDigits": 2
+          },
+          "key": "249900GBP",
+          "country": "GB"
+        },
+        "quantity": 1,
+        "discountedPricePerQuantity": [],
+        "taxRate": {
+          "name": "Standard VAT for UK",
+          "amount": 0.2,
+          "includedInPrice": true,
+          "country": "GB",
+          "id": "SBc2YGOW",
+          "key": "vat-standard-uk",
+          "subRates": [],
+          "taxRoundingTarget": "Net"
+        },
+        "perMethodTaxRate": [],
+        "addedAt": "2026-10-12T10:21:38.700Z",
+        "lastModifiedAt": "2026-10-12T10:21:38.700Z",
+        "state": [
+          {
+            "quantity": 1,
+            "state": {
+              "typeId": "state",
+              "id": "45cead2e-88dd-4ad8-b331-95252066e72c"
+            }
+          }
+        ],
+        "priceMode": "Platform",
+        "lineItemMode": "Standard",
+        "priceRoundingMode": "HalfEven",
+        "totalPrice": {
+          "type": "centPrecision",
+          "currencyCode": "GBP",
+          "centAmount": 249900,
+          "fractionDigits": 2
+        },
+        "taxedPrice": {
+          "totalNet": {
+            "type": "centPrecision",
+            "currencyCode": "GBP",
+            "centAmount": 208250,
+            "fractionDigits": 2
+          },
+          "totalGross": {
+            "type": "centPrecision",
+            "currencyCode": "GBP",
+            "centAmount": 249900,
+            "fractionDigits": 2
+          },
+          "taxPortions": [
+            {
+              "rate": 0.2,
+              "amount": {
+                "type": "centPrecision",
+                "currencyCode": "GBP",
+                "centAmount": 41650,
+                "fractionDigits": 2
+              },
+              "name": "Standard VAT for UK"
+            }
+          ],
+          "totalTax": {
+            "type": "centPrecision",
+            "currencyCode": "GBP",
+            "centAmount": 41650,
+            "fractionDigits": 2
+          }
+        },
+        "taxedPricePortions": []
+      }
+    ],
+    "customLineItems": [],
+    "transactionFee": true,
+    "discountCodes": [],
+    "directDiscounts": [],
+    "cart": {
+      "typeId": "cart",
+      "id": "56396cb5-acc9-4bd7-b259-81d68e452448"
+    },
+    "billingAddress": {
+      "firstName": "Sebastian",
+      "lastName": "Smith",
+      "streetName": "Center Street",
+      "streetNumber": "1",
+      "postalCode": "PO167GZ",
+      "city": "Fareham",
+      "country": "GB"
+    },
+    "itemShippingAddresses": [],
+    "refusedGifts": [],
+    "store": {
+      "typeId": "store",
+      "key": "b2c-retail-store"
+    }
+  },
+  {
+    "type": "Order",
+    "id": "2f6359e2-13d1-4c54-b1e0-a537512808aa",
+    "version": 1,
+    "versionModifiedAt": "2026-10-12T10:21:38.922Z",
+    "lastMessageSequenceNumber": 1,
+    "createdAt": "2026-10-12T10:21:38.900Z",
+    "lastModifiedAt": "2026-10-12T10:21:38.900Z",
+    "lastModifiedBy": {
+      "isPlatformClient": true
+    },
+    "createdBy": {
+      "isPlatformClient": true
+    },
+    "customerId": "0966d082-3a04-4d19-a48a-183295e58eba",
+    "customerEmail": "seb@example.com",
+    "totalPrice": {
+      "type": "centPrecision",
+      "currencyCode": "USD",
+      "centAmount": 61980,
+      "fractionDigits": 2
+    },
+    "taxedPrice": {
+      "totalNet": {
+        "type": "centPrecision",
+        "currencyCode": "USD",
+        "centAmount": 61980,
+        "fractionDigits": 2
+      },
+      "totalGross": {
+        "type": "centPrecision",
+        "currencyCode": "USD",
+        "centAmount": 64924,
+        "fractionDigits": 2
+      },
+      "taxPortions": [
+        {
+          "rate": 0.0475,
+          "amount": {
+            "type": "centPrecision",
+            "currencyCode": "USD",
+            "centAmount": 2944,
+            "fractionDigits": 2
+          },
+          "name": "State Tax: North Carolina"
+        }
+      ],
+      "totalTax": {
+        "type": "centPrecision",
+        "currencyCode": "USD",
+        "centAmount": 2944,
+        "fractionDigits": 2
+      }
+    },
+    "country": "US",
+    "taxedShippingPrice": {
+      "totalNet": {
+        "type": "centPrecision",
+        "currencyCode": "USD",
+        "centAmount": 50000,
+        "fractionDigits": 2
+      },
+      "totalGross": {
+        "type": "centPrecision",
+        "currencyCode": "USD",
+        "centAmount": 52375,
+        "fractionDigits": 2
+      },
+      "taxPortions": [
+        {
+          "rate": 0.0475,
+          "amount": {
+            "type": "centPrecision",
+            "currencyCode": "USD",
+            "centAmount": 2375,
+            "fractionDigits": 2
+          },
+          "name": "State Tax: North Carolina"
+        }
+      ],
+      "totalTax": {
+        "type": "centPrecision",
+        "currencyCode": "USD",
+        "centAmount": 2375,
+        "fractionDigits": 2
+      }
+    },
+    "orderState": "Open",
+    "shipmentState": "Pending",
+    "paymentState": "Pending",
+    "syncInfo": [],
+    "returnInfo": [],
+    "priceRoundingMode": "HalfEven",
+    "taxMode": "Platform",
+    "inventoryMode": "None",
+    "taxRoundingMode": "HalfEven",
+    "taxCalculationMode": "LineItemLevel",
+    "origin": "Merchant",
+    "shippingMode": "Single",
+    "shippingInfo": {
+      "shippingMethodName": "Standard Shipping",
+      "price": {
+        "type": "centPrecision",
+        "currencyCode": "USD",
+        "centAmount": 50000,
+        "fractionDigits": 2
+      },
+      "shippingRate": {
+        "price": {
+          "type": "centPrecision",
+          "currencyCode": "USD",
+          "centAmount": 50000,
+          "fractionDigits": 2
+        },
+        "freeAbove": {
+          "type": "centPrecision",
+          "currencyCode": "USD",
+          "centAmount": 1000000,
+          "fractionDigits": 2
+        },
+        "tiers": []
+      },
+      "taxRate": {
+        "name": "State Tax: North Carolina",
+        "amount": 0.0475,
+        "includedInPrice": false,
+        "country": "US",
+        "state": "North Carolina",
+        "id": "gbGCRLwH",
+        "key": "nc-state-tax",
+        "subRates": [],
+        "taxRoundingTarget": "Net"
+      },
+      "taxCategory": {
+        "typeId": "tax-category",
+        "id": "4866c807-2a2b-49c7-bb64-9bf75c879000"
+      },
+      "deliveries": [],
+      "shippingMethod": {
+        "typeId": "shipping-method",
+        "id": "f688e316-e298-41bd-a389-cb2b73601315"
+      },
+      "taxedPrice": {
+        "totalNet": {
+          "type": "centPrecision",
+          "currencyCode": "USD",
+          "centAmount": 50000,
+          "fractionDigits": 2
+        },
+        "totalGross": {
+          "type": "centPrecision",
+          "currencyCode": "USD",
+          "centAmount": 52375,
+          "fractionDigits": 2
+        },
+        "taxPortions": [
+          {
+            "rate": 0.0475,
+            "amount": {
+              "type": "centPrecision",
+              "currencyCode": "USD",
+              "centAmount": 2375,
+              "fractionDigits": 2
+            },
+            "name": "State Tax: North Carolina"
+          }
+        ],
+        "totalTax": {
+          "type": "centPrecision",
+          "currencyCode": "USD",
+          "centAmount": 2375,
+          "fractionDigits": 2
+        }
+      },
+      "shippingMethodState": "MatchesCart"
+    },
+    "shippingAddress": {
+      "firstName": "Sebastian",
+      "lastName": "Franklin",
+      "streetName": "South Road",
+      "streetNumber": "9",
+      "postalCode": "27517",
+      "city": "Durham",
+      "state": "North Carolina",
+      "country": "US"
+    },
+    "shipping": [],
+    "discountTypeCombination": {
+      "type": "Stacking"
+    },
+    "lineItems": [
+      {
+        "id": "058007f6-edd6-4483-88a6-b6d46e7c332f",
+        "productId": "c94a3ada-d02c-48b3-8a03-b7bb7c37ac6f",
+        "productKey": "steel-hip-flask",
+        "productType": {
+          "typeId": "product-type",
+          "id": "5ca17606-7b7d-4975-9be0-1517c98b201d",
+          "version": 1
+        },
+        "productSlug": {
+          "en-US": "steel-hip-flask",
+          "en-GB": "steel-hip-flask",
+          "de-DE": "flachmann-aus-stahl"
+        },
+        "name": {
+          "en-US": "Steel Hip Flask",
+          "en-GB": "Steel Hip Flask",
+          "de-DE": "Flachmann aus Stahl"
+        },
+        "variant": {
+          "id": 1,
+          "sku": "FLAS-094",
+          "key": "steelHipFlask01",
+          "prices": [
+            {
+              "id": "e092bb55-05e7-4871-bcfb-fef3651c76bf",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 599,
+                "fractionDigits": 2
+              },
+              "key": "599EUR",
+              "country": "DE"
+            },
+            {
+              "id": "a4459574-d173-4ad4-ab90-e3e098f40669",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 499,
+                "fractionDigits": 2
+              },
+              "key": "499EUR_dist",
+              "country": "DE",
+              "channel": {
+                "typeId": "channel",
+                "id": "eb9d5a42-c018-4fa4-8549-8d92ce779390"
+              }
+            },
+            {
+              "id": "6e631f88-862d-4407-b179-5636fc99a77e",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "GBP",
+                "centAmount": 599,
+                "fractionDigits": 2
+              },
+              "key": "599GBP",
+              "country": "GB"
+            },
+            {
+              "id": "c4a2d495-4057-4b0b-9889-3519512b3b5c",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "USD",
+                "centAmount": 599,
+                "fractionDigits": 2
+              },
+              "key": "599USD",
+              "country": "US"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://storage.googleapis.com/merchant-center-europe/sample-data/b2c-lifestyle/Steel_Hip_Flask-1.1.jpeg",
+              "dimensions": {
+                "w": 5006,
+                "h": 6580
+              }
+            }
+          ],
+          "attributes": [
+            {
+              "name": "productspec",
+              "value": {
+                "en-GB": "- Stainless steel",
+                "en-US": "- Stainless steel",
+                "de-DE": "- Edelstahl"
+              }
+            },
+            {
+              "name": "search-finish",
+              "value": {
+                "key": "silver",
+                "label": {
+                  "en-US": "Silver",
+                  "en-GB": "Silver",
+                  "de-DE": "Silber"
+                }
+              }
+            },
+            {
+              "name": "finish-label",
+              "value": {
+                "en-GB": "Silver",
+                "de-DE": "Silber",
+                "en-US": "Silver"
+              }
+            },
+            {
+              "name": "finish-code",
+              "value": "#C0C0C0"
+            }
+          ],
+          "assets": []
+        },
+        "price": {
+          "id": "c4a2d495-4057-4b0b-9889-3519512b3b5c",
+          "value": {
+            "type": "centPrecision",
+            "currencyCode": "USD",
+            "centAmount": 599,
+            "fractionDigits": 2
+          },
+          "key": "599USD",
+          "country": "US"
+        },
+        "quantity": 20,
+        "discountedPricePerQuantity": [],
+        "taxRate": {
+          "name": "State Tax: North Carolina",
+          "amount": 0.0475,
+          "includedInPrice": false,
+          "country": "US",
+          "state": "North Carolina",
+          "id": "gbGCRLwH",
+          "key": "nc-state-tax",
+          "subRates": [],
+          "taxRoundingTarget": "Net"
+        },
+        "perMethodTaxRate": [],
+        "addedAt": "2026-10-12T10:21:38.701Z",
+        "lastModifiedAt": "2026-10-12T10:21:38.701Z",
+        "state": [
+          {
+            "quantity": 20,
+            "state": {
+              "typeId": "state",
+              "id": "45cead2e-88dd-4ad8-b331-95252066e72c"
+            }
+          }
+        ],
+        "priceMode": "Platform",
+        "lineItemMode": "Standard",
+        "priceRoundingMode": "HalfEven",
+        "totalPrice": {
+          "type": "centPrecision",
+          "currencyCode": "USD",
+          "centAmount": 11980,
+          "fractionDigits": 2
+        },
+        "taxedPrice": {
+          "totalNet": {
+            "type": "centPrecision",
+            "currencyCode": "USD",
+            "centAmount": 11980,
+            "fractionDigits": 2
+          },
+          "totalGross": {
+            "type": "centPrecision",
+            "currencyCode": "USD",
+            "centAmount": 12549,
+            "fractionDigits": 2
+          },
+          "taxPortions": [
+            {
+              "rate": 0.0475,
+              "amount": {
+                "type": "centPrecision",
+                "currencyCode": "USD",
+                "centAmount": 569,
+                "fractionDigits": 2
+              },
+              "name": "State Tax: North Carolina"
+            }
+          ],
+          "totalTax": {
+            "type": "centPrecision",
+            "currencyCode": "USD",
+            "centAmount": 569,
+            "fractionDigits": 2
+          }
+        },
+        "taxedPricePortions": []
+      }
+    ],
+    "customLineItems": [],
+    "transactionFee": true,
+    "discountCodes": [],
+    "directDiscounts": [],
+    "cart": {
+      "typeId": "cart",
+      "id": "43b9c823-1e7e-4583-8bb2-70a5b3725f12"
+    },
+    "billingAddress": {
+      "firstName": "Sebastian",
+      "lastName": "Franklin",
+      "streetName": "South Road",
+      "streetNumber": "9",
+      "postalCode": "27517",
+      "city": "Durham",
+      "state": "North Carolina",
+      "country": "US"
+    },
+    "itemShippingAddresses": [],
+    "refusedGifts": [],
+    "store": {
+      "typeId": "store",
+      "key": "b2c-retail-store"
+    }
+  },
+  {
+    "type": "Order",
+    "id": "c8d2c79d-1904-4187-bd49-e5337172ab08",
+    "version": 2,
+    "versionModifiedAt": "2026-10-12T10:21:39.212Z",
+    "lastMessageSequenceNumber": 2,
+    "createdAt": "2026-10-12T10:21:38.896Z",
+    "lastModifiedAt": "2026-10-12T10:21:39.212Z",
+    "lastModifiedBy": {
+      "isPlatformClient": true
+    },
+    "createdBy": {
+      "isPlatformClient": true
+    },
+    "customerId": "3554f663-2cb1-47f9-bdf1-70749e27047f",
+    "customerEmail": "jen@example.uk",
+    "totalPrice": {
+      "type": "centPrecision",
+      "currencyCode": "GBP",
+      "centAmount": 461799,
+      "fractionDigits": 2
+    },
+    "taxedPrice": {
+      "totalNet": {
+        "type": "centPrecision",
+        "currencyCode": "GBP",
+        "centAmount": 384833,
+        "fractionDigits": 2
+      },
+      "totalGross": {
+        "type": "centPrecision",
+        "currencyCode": "GBP",
+        "centAmount": 461799,
+        "fractionDigits": 2
+      },
+      "taxPortions": [
+        {
+          "rate": 0.2,
+          "amount": {
+            "type": "centPrecision",
+            "currencyCode": "GBP",
+            "centAmount": 76966,
+            "fractionDigits": 2
+          },
+          "name": "Standard VAT for UK"
+        }
+      ],
+      "totalTax": {
+        "type": "centPrecision",
+        "currencyCode": "GBP",
+        "centAmount": 76966,
+        "fractionDigits": 2
+      }
+    },
+    "country": "GB",
+    "taxedShippingPrice": {
+      "totalNet": {
+        "type": "centPrecision",
+        "currencyCode": "GBP",
+        "centAmount": 0,
+        "fractionDigits": 2
+      },
+      "totalGross": {
+        "type": "centPrecision",
+        "currencyCode": "GBP",
+        "centAmount": 0,
+        "fractionDigits": 2
+      },
+      "taxPortions": [
+        {
+          "rate": 0.2,
+          "amount": {
+            "type": "centPrecision",
+            "currencyCode": "GBP",
+            "centAmount": 0,
+            "fractionDigits": 2
+          },
+          "name": "Standard VAT for UK"
+        }
+      ],
+      "totalTax": {
+        "type": "centPrecision",
+        "currencyCode": "GBP",
+        "centAmount": 0,
+        "fractionDigits": 2
+      }
+    },
+    "orderState": "Confirmed",
+    "shipmentState": "Pending",
+    "paymentState": "Paid",
+    "syncInfo": [],
+    "returnInfo": [],
+    "priceRoundingMode": "HalfEven",
+    "taxMode": "Platform",
+    "inventoryMode": "None",
+    "taxRoundingMode": "HalfEven",
+    "taxCalculationMode": "LineItemLevel",
+    "origin": "Merchant",
+    "shippingMode": "Single",
+    "shippingInfo": {
+      "shippingMethodName": "Standard Shipping",
+      "price": {
+        "type": "centPrecision",
+        "currencyCode": "GBP",
+        "centAmount": 50000,
+        "fractionDigits": 2
+      },
+      "shippingRate": {
+        "price": {
+          "type": "centPrecision",
+          "currencyCode": "GBP",
+          "centAmount": 50000,
+          "fractionDigits": 2
+        },
+        "freeAbove": {
+          "type": "centPrecision",
+          "currencyCode": "GBP",
+          "centAmount": 1000000,
+          "fractionDigits": 2
+        },
+        "tiers": []
+      },
+      "taxRate": {
+        "name": "Standard VAT for UK",
+        "amount": 0.2,
+        "includedInPrice": true,
+        "country": "GB",
+        "id": "SBc2YGOW",
+        "key": "vat-standard-uk",
+        "subRates": [],
+        "taxRoundingTarget": "Net"
+      },
+      "taxCategory": {
+        "typeId": "tax-category",
+        "id": "4866c807-2a2b-49c7-bb64-9bf75c879000"
+      },
+      "deliveries": [],
+      "shippingMethod": {
+        "typeId": "shipping-method",
+        "id": "f688e316-e298-41bd-a389-cb2b73601315"
+      },
+      "discountedPrice": {
+        "value": {
+          "type": "centPrecision",
+          "currencyCode": "GBP",
+          "centAmount": 0,
+          "fractionDigits": 2
+        },
+        "includedDiscounts": [
+          {
+            "discount": {
+              "typeId": "cart-discount",
+              "id": "0dcfbd16-4f5a-45d9-bc58-a33d2d9e23ab"
+            },
+            "discountedAmount": {
+              "type": "centPrecision",
+              "currencyCode": "GBP",
+              "centAmount": 50000,
+              "fractionDigits": 2
+            }
+          }
+        ]
+      },
+      "taxedPrice": {
+        "totalNet": {
+          "type": "centPrecision",
+          "currencyCode": "GBP",
+          "centAmount": 0,
+          "fractionDigits": 2
+        },
+        "totalGross": {
+          "type": "centPrecision",
+          "currencyCode": "GBP",
+          "centAmount": 0,
+          "fractionDigits": 2
+        },
+        "taxPortions": [
+          {
+            "rate": 0.2,
+            "amount": {
+              "type": "centPrecision",
+              "currencyCode": "GBP",
+              "centAmount": 0,
+              "fractionDigits": 2
+            },
+            "name": "Standard VAT for UK"
+          }
+        ],
+        "totalTax": {
+          "type": "centPrecision",
+          "currencyCode": "GBP",
+          "centAmount": 0,
+          "fractionDigits": 2
+        }
+      },
+      "shippingMethodState": "MatchesCart"
+    },
+    "shippingAddress": {
+      "firstName": "Jennifer",
+      "lastName": "Jones",
+      "streetName": "Main Road",
+      "streetNumber": "100",
+      "postalCode": "SW1A2AA",
+      "city": "Westminster",
+      "country": "GB"
+    },
+    "shipping": [],
+    "discountTypeCombination": {
+      "type": "Stacking"
+    },
+    "lineItems": [
+      {
+        "id": "f3e50893-5541-4343-bf4b-d637d5f2cc39",
+        "productId": "92a4ccc2-91b1-482c-bc1c-a8ddec30926e",
+        "productKey": "rustic-country-queen-bed",
+        "productType": {
+          "typeId": "product-type",
+          "id": "5ca17606-7b7d-4975-9be0-1517c98b201d",
+          "version": 1
+        },
+        "productSlug": {
+          "en-US": "rustic-country-queen-bed",
+          "en-GB": "rustic-country-queen-bed",
+          "de-DE": "rustikales-country-queen-bett"
+        },
+        "name": {
+          "en-US": "Rustic Country Queen Bed",
+          "en-GB": "Rustic Country Queen Bed",
+          "de-DE": "Rustikales Queensize-Bett im Landhausstil"
+        },
+        "variant": {
+          "id": 1,
+          "sku": "RCQB-01",
+          "key": "rusticCountryQueenBed01",
+          "prices": [
+            {
+              "id": "9e258b34-66b4-4a2f-b857-f4edc77b97e5",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 329900,
+                "fractionDigits": 2
+              },
+              "key": "329900EUR",
+              "country": "DE"
+            },
+            {
+              "id": "468a988a-8215-4796-aabd-eb26886d3f3a",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "GBP",
+                "centAmount": 329900,
+                "fractionDigits": 2
+              },
+              "key": "329900GBP",
+              "country": "GB"
+            },
+            {
+              "id": "e54b70b2-c059-457c-aa8b-217d0048c757",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "USD",
+                "centAmount": 329900,
+                "fractionDigits": 2
+              },
+              "key": "329900USD",
+              "country": "US"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://storage.googleapis.com/merchant-center-europe/sample-data/b2c-lifestyle/Rustic_Country_Queen_Bed-1.1.jpeg",
+              "dimensions": {
+                "w": 5000,
+                "h": 5000
+              }
+            }
+          ],
+          "attributes": [
+            {
+              "name": "search-finish",
+              "value": {
+                "key": "brown",
+                "label": {
+                  "en-US": "Brown",
+                  "en-GB": "Brown",
+                  "de-DE": "Braun"
+                }
+              }
+            },
+            {
+              "name": "finish-code",
+              "value": "#8b4513"
+            },
+            {
+              "name": "productspec",
+              "value": {
+                "en-US": "- Leather upholstery\n- Standard Queen size\n- Assembly on site",
+                "en-GB": "- Leather upholstery\n- Standard Queen size\n- Assembly on site",
+                "de-DE": "- Leather upholstery\n- Standard Queen size\n- Assembly on site"
+              }
+            },
+            {
+              "name": "finish-label",
+              "value": {
+                "en-GB": "Saddle Brown",
+                "de-DE": "Sattel braun",
+                "en-US": "Saddle Brown"
+              }
+            },
+            {
+              "name": "color-label",
+              "value": {
+                "en-GB": "Tan",
+                "de-DE": "Bräunen",
+                "en-US": "Tan"
+              }
+            },
+            {
+              "name": "search-color",
+              "value": {
+                "key": "yellow",
+                "label": {
+                  "en-US": "Yellow",
+                  "en-GB": "Yellow",
+                  "de-DE": "Gelb"
+                }
+              }
+            },
+            {
+              "name": "color-code",
+              "value": "#D2B48C"
+            }
+          ],
+          "assets": [],
+          "availability": {
+            "isOnStock": true,
+            "availableQuantity": 76,
+            "version": 1,
+            "id": "dad165dd-8cb1-4ad0-b315-49f8e5a816f1"
+          }
+        },
+        "price": {
+          "id": "468a988a-8215-4796-aabd-eb26886d3f3a",
+          "value": {
+            "type": "centPrecision",
+            "currencyCode": "GBP",
+            "centAmount": 329900,
+            "fractionDigits": 2
+          },
+          "key": "329900GBP",
+          "country": "GB"
+        },
+        "quantity": 1,
+        "discountedPricePerQuantity": [],
+        "taxRate": {
+          "name": "Standard VAT for UK",
+          "amount": 0.2,
+          "includedInPrice": true,
+          "country": "GB",
+          "id": "SBc2YGOW",
+          "key": "vat-standard-uk",
+          "subRates": [],
+          "taxRoundingTarget": "Net"
+        },
+        "perMethodTaxRate": [],
+        "addedAt": "2026-10-12T10:21:38.701Z",
+        "lastModifiedAt": "2026-10-12T10:21:38.701Z",
+        "state": [
+          {
+            "quantity": 1,
+            "state": {
+              "typeId": "state",
+              "id": "45cead2e-88dd-4ad8-b331-95252066e72c"
+            }
+          }
+        ],
+        "priceMode": "Platform",
+        "lineItemMode": "Standard",
+        "priceRoundingMode": "HalfEven",
+        "totalPrice": {
+          "type": "centPrecision",
+          "currencyCode": "GBP",
+          "centAmount": 329900,
+          "fractionDigits": 2
+        },
+        "taxedPrice": {
+          "totalNet": {
+            "type": "centPrecision",
+            "currencyCode": "GBP",
+            "centAmount": 274917,
+            "fractionDigits": 2
+          },
+          "totalGross": {
+            "type": "centPrecision",
+            "currencyCode": "GBP",
+            "centAmount": 329900,
+            "fractionDigits": 2
+          },
+          "taxPortions": [
+            {
+              "rate": 0.2,
+              "amount": {
+                "type": "centPrecision",
+                "currencyCode": "GBP",
+                "centAmount": 54983,
+                "fractionDigits": 2
+              },
+              "name": "Standard VAT for UK"
+            }
+          ],
+          "totalTax": {
+            "type": "centPrecision",
+            "currencyCode": "GBP",
+            "centAmount": 54983,
+            "fractionDigits": 2
+          }
+        },
+        "taxedPricePortions": []
+      },
+      {
+        "id": "251ebe63-61aa-4b1f-9568-73863dca4681",
+        "productId": "5caad6ca-73d4-4dd5-839b-d2b70f2ce25b",
+        "productKey": "opal-king-bed",
+        "productType": {
+          "typeId": "product-type",
+          "id": "5ca17606-7b7d-4975-9be0-1517c98b201d",
+          "version": 1
+        },
+        "productSlug": {
+          "en-GB": "opal-king-bed",
+          "de-DE": "opal-kingsize-bett",
+          "en-US": "opal-king-bed"
+        },
+        "name": {
+          "en-GB": "Opal King Bed",
+          "de-DE": "Opal King Bett",
+          "en-US": "Opal King Bed"
+        },
+        "variant": {
+          "id": 1,
+          "sku": "MTB-023",
+          "key": "opalKingBed01",
+          "prices": [
+            {
+              "id": "212efe79-1323-4551-b920-e74cc35cc854",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 129900,
+                "fractionDigits": 2
+              },
+              "key": "129900EUR",
+              "country": "DE"
+            },
+            {
+              "id": "4a8bba6f-e8f5-40aa-b795-509cb20e42e4",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "GBP",
+                "centAmount": 129900,
+                "fractionDigits": 2
+              },
+              "key": "129900GBP",
+              "country": "GB"
+            },
+            {
+              "id": "e3ae19ad-bd74-485f-93a3-6c9f208971bf",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "USD",
+                "centAmount": 129900,
+                "fractionDigits": 2
+              },
+              "key": "129900USD",
+              "country": "US"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://storage.googleapis.com/merchant-center-europe/sample-data/b2c-lifestyle/Opal_King_Bed-1.1.jpeg",
+              "dimensions": {
+                "w": 2000,
+                "h": 2000
+              }
+            }
+          ],
+          "attributes": [
+            {
+              "name": "productspec",
+              "value": {
+                "en-GB": "- Assembly included",
+                "de-DE": "- Montage inklusive",
+                "en-US": "- Assembly included"
+              }
+            },
+            {
+              "name": "search-color",
+              "value": {
+                "key": "black",
+                "label": {
+                  "en-US": "Black",
+                  "en-GB": "Black",
+                  "de-DE": "Schwarz"
+                }
+              }
+            },
+            {
+              "name": "color-label",
+              "value": {
+                "en-GB": "Black",
+                "de-DE": "Schwarz",
+                "en-US": "Black"
+              }
+            },
+            {
+              "name": "color-code",
+              "value": "#000000"
+            }
+          ],
+          "assets": [],
+          "availability": {
+            "isOnStock": true,
+            "availableQuantity": 100,
+            "version": 1,
+            "id": "6cee6255-733f-4bc3-8fe7-c667a3aca552"
+          }
+        },
+        "price": {
+          "id": "4a8bba6f-e8f5-40aa-b795-509cb20e42e4",
+          "value": {
+            "type": "centPrecision",
+            "currencyCode": "GBP",
+            "centAmount": 129900,
+            "fractionDigits": 2
+          },
+          "key": "129900GBP",
+          "country": "GB"
+        },
+        "quantity": 1,
+        "discountedPricePerQuantity": [],
+        "taxRate": {
+          "name": "Standard VAT for UK",
+          "amount": 0.2,
+          "includedInPrice": true,
+          "country": "GB",
+          "id": "SBc2YGOW",
+          "key": "vat-standard-uk",
+          "subRates": [],
+          "taxRoundingTarget": "Net"
+        },
+        "perMethodTaxRate": [],
+        "addedAt": "2026-10-12T10:21:38.701Z",
+        "lastModifiedAt": "2026-10-12T10:21:38.701Z",
+        "state": [
+          {
+            "quantity": 1,
+            "state": {
+              "typeId": "state",
+              "id": "45cead2e-88dd-4ad8-b331-95252066e72c"
+            }
+          }
+        ],
+        "priceMode": "Platform",
+        "lineItemMode": "Standard",
+        "priceRoundingMode": "HalfEven",
+        "totalPrice": {
+          "type": "centPrecision",
+          "currencyCode": "GBP",
+          "centAmount": 129900,
+          "fractionDigits": 2
+        },
+        "taxedPrice": {
+          "totalNet": {
+            "type": "centPrecision",
+            "currencyCode": "GBP",
+            "centAmount": 108250,
+            "fractionDigits": 2
+          },
+          "totalGross": {
+            "type": "centPrecision",
+            "currencyCode": "GBP",
+            "centAmount": 129900,
+            "fractionDigits": 2
+          },
+          "taxPortions": [
+            {
+              "rate": 0.2,
+              "amount": {
+                "type": "centPrecision",
+                "currencyCode": "GBP",
+                "centAmount": 21650,
+                "fractionDigits": 2
+              },
+              "name": "Standard VAT for UK"
+            }
+          ],
+          "totalTax": {
+            "type": "centPrecision",
+            "currencyCode": "GBP",
+            "centAmount": 21650,
+            "fractionDigits": 2
+          }
+        },
+        "taxedPricePortions": []
+      },
+      {
+        "id": "dce59c0a-0026-40bf-90fb-95980d361454",
+        "productId": "a256b1b1-a9e5-4d64-ae56-7393ed70d65f",
+        "productKey": "geometric-pillow-case",
+        "productType": {
+          "typeId": "product-type",
+          "id": "5ca17606-7b7d-4975-9be0-1517c98b201d",
+          "version": 1
+        },
+        "productSlug": {
+          "en-US": "geometric-pillow-case",
+          "en-GB": "geometric-pillow-case",
+          "de-DE": "geometrischer-kissenbezug"
+        },
+        "name": {
+          "en-US": "Geometric Pillow Case",
+          "en-GB": "Geometric Pillow Case",
+          "de-DE": "Geometrischer Kissenbezug"
+        },
+        "variant": {
+          "id": 1,
+          "sku": "GPC-01",
+          "key": "geometricPillowCase01",
+          "prices": [
+            {
+              "id": "2c508ac7-f468-49f9-a7d4-57e74081506d",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 1999,
+                "fractionDigits": 2
+              },
+              "key": "1999EUR",
+              "country": "DE"
+            },
+            {
+              "id": "82a74f95-3f18-4f66-b3d3-524d6021a23b",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "GBP",
+                "centAmount": 1999,
+                "fractionDigits": 2
+              },
+              "key": "1999GBP",
+              "country": "GB"
+            },
+            {
+              "id": "4599a852-09e6-40bb-80dc-949440443b5e",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "USD",
+                "centAmount": 1999,
+                "fractionDigits": 2
+              },
+              "key": "1999USD",
+              "country": "US"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://storage.googleapis.com/merchant-center-europe/sample-data/b2c-lifestyle/Geometric_Pillow_Case-1.1.jpeg",
+              "dimensions": {
+                "w": 5000,
+                "h": 5000
+              }
+            },
+            {
+              "url": "https://storage.googleapis.com/merchant-center-europe/sample-data/b2c-lifestyle/Geometric_Pillow_Case-1.2.jpeg",
+              "dimensions": {
+                "w": 5000,
+                "h": 5000
+              }
+            }
+          ],
+          "attributes": [
+            {
+              "name": "productspec",
+              "value": {
+                "en-US": "- Velvet fabric\n- Cotton lining\n- Pillow case comes with zip for easy removal\n- Pillow not included\n- Washable\n",
+                "en-GB": "- Velvet fabric\n- Cotton lining\n- Pillow case comes with zip for easy removal\n- Pillow not included\n- Washable",
+                "de-DE": "- Velvet fabric\n- Cotton lining\n- Pillow case comes with zip for easy removal\n- Pillow not included\n- Washable"
+              }
+            },
+            {
+              "name": "search-color",
+              "value": {
+                "key": "silver",
+                "label": {
+                  "en-US": "Silver",
+                  "en-GB": "Silver",
+                  "de-DE": "Silber"
+                }
+              }
+            },
+            {
+              "name": "color-label",
+              "value": {
+                "en-GB": "Silver",
+                "de-DE": "Silber",
+                "en-US": "Silver"
+              }
+            },
+            {
+              "name": "color-code",
+              "value": "#C0C0C0"
+            }
+          ],
+          "assets": [],
+          "availability": {
+            "isOnStock": true,
+            "availableQuantity": 81,
+            "version": 1,
+            "id": "e05fab27-b3a0-4977-8600-cb06bc36d3fc"
+          }
+        },
+        "price": {
+          "id": "82a74f95-3f18-4f66-b3d3-524d6021a23b",
+          "value": {
+            "type": "centPrecision",
+            "currencyCode": "GBP",
+            "centAmount": 1999,
+            "fractionDigits": 2
+          },
+          "key": "1999GBP",
+          "country": "GB"
+        },
+        "quantity": 1,
+        "discountedPricePerQuantity": [],
+        "taxRate": {
+          "name": "Standard VAT for UK",
+          "amount": 0.2,
+          "includedInPrice": true,
+          "country": "GB",
+          "id": "SBc2YGOW",
+          "key": "vat-standard-uk",
+          "subRates": [],
+          "taxRoundingTarget": "Net"
+        },
+        "perMethodTaxRate": [],
+        "addedAt": "2026-10-12T10:21:38.701Z",
+        "lastModifiedAt": "2026-10-12T10:21:38.701Z",
+        "state": [
+          {
+            "quantity": 1,
+            "state": {
+              "typeId": "state",
+              "id": "45cead2e-88dd-4ad8-b331-95252066e72c"
+            }
+          }
+        ],
+        "priceMode": "Platform",
+        "lineItemMode": "Standard",
+        "priceRoundingMode": "HalfEven",
+        "totalPrice": {
+          "type": "centPrecision",
+          "currencyCode": "GBP",
+          "centAmount": 1999,
+          "fractionDigits": 2
+        },
+        "taxedPrice": {
+          "totalNet": {
+            "type": "centPrecision",
+            "currencyCode": "GBP",
+            "centAmount": 1666,
+            "fractionDigits": 2
+          },
+          "totalGross": {
+            "type": "centPrecision",
+            "currencyCode": "GBP",
+            "centAmount": 1999,
+            "fractionDigits": 2
+          },
+          "taxPortions": [
+            {
+              "rate": 0.2,
+              "amount": {
+                "type": "centPrecision",
+                "currencyCode": "GBP",
+                "centAmount": 333,
+                "fractionDigits": 2
+              },
+              "name": "Standard VAT for UK"
+            }
+          ],
+          "totalTax": {
+            "type": "centPrecision",
+            "currencyCode": "GBP",
+            "centAmount": 333,
+            "fractionDigits": 2
+          }
+        },
+        "taxedPricePortions": []
+      }
+    ],
+    "customLineItems": [],
+    "transactionFee": true,
+    "discountCodes": [],
+    "directDiscounts": [],
+    "cart": {
+      "typeId": "cart",
+      "id": "8ec58dd8-a18e-4222-a3ab-cbd0a5eac01d"
+    },
+    "paymentInfo": {
+      "payments": [
+        {
+          "typeId": "payment",
+          "id": "801546d1-eaa4-4fe1-9ad8-86748bcd158a"
+        }
+      ]
+    },
+    "billingAddress": {
+      "firstName": "Jennifer",
+      "lastName": "Jones",
+      "streetName": "Main Road",
+      "streetNumber": "100",
+      "postalCode": "SW1A2AA",
+      "city": "Westminster",
+      "country": "GB"
+    },
+    "itemShippingAddresses": [],
+    "refusedGifts": [],
+    "store": {
+      "typeId": "store",
+      "key": "b2c-retail-store"
+    }
+  },
+  {
+    "type": "Order",
+    "id": "a0a3d242-f4d7-4a6e-85af-d1007b22d075",
+    "version": 2,
+    "versionModifiedAt": "2026-10-12T10:21:39.204Z",
+    "lastMessageSequenceNumber": 2,
+    "createdAt": "2026-10-12T10:21:38.895Z",
+    "lastModifiedAt": "2026-10-12T10:21:39.204Z",
+    "lastModifiedBy": {
+      "isPlatformClient": true
+    },
+    "createdBy": {
+      "isPlatformClient": true
+    },
+    "customerId": "f75c0b5e-c6d2-4def-bad9-869f6570db1c",
+    "customerEmail": "seb@example.de",
+    "totalPrice": {
+      "type": "centPrecision",
+      "currencyCode": "EUR",
+      "centAmount": 409900,
+      "fractionDigits": 2
+    },
+    "taxedPrice": {
+      "totalNet": {
+        "type": "centPrecision",
+        "currencyCode": "EUR",
+        "centAmount": 344454,
+        "fractionDigits": 2
+      },
+      "totalGross": {
+        "type": "centPrecision",
+        "currencyCode": "EUR",
+        "centAmount": 409900,
+        "fractionDigits": 2
+      },
+      "taxPortions": [
+        {
+          "rate": 0.19,
+          "amount": {
+            "type": "centPrecision",
+            "currencyCode": "EUR",
+            "centAmount": 65446,
+            "fractionDigits": 2
+          },
+          "name": "Standard VAT for Germany"
+        }
+      ],
+      "totalTax": {
+        "type": "centPrecision",
+        "currencyCode": "EUR",
+        "centAmount": 65446,
+        "fractionDigits": 2
+      }
+    },
+    "country": "DE",
+    "taxedShippingPrice": {
+      "totalNet": {
+        "type": "centPrecision",
+        "currencyCode": "EUR",
+        "centAmount": 42017,
+        "fractionDigits": 2
+      },
+      "totalGross": {
+        "type": "centPrecision",
+        "currencyCode": "EUR",
+        "centAmount": 50000,
+        "fractionDigits": 2
+      },
+      "taxPortions": [
+        {
+          "rate": 0.19,
+          "amount": {
+            "type": "centPrecision",
+            "currencyCode": "EUR",
+            "centAmount": 7983,
+            "fractionDigits": 2
+          },
+          "name": "Standard VAT for Germany"
+        }
+      ],
+      "totalTax": {
+        "type": "centPrecision",
+        "currencyCode": "EUR",
+        "centAmount": 7983,
+        "fractionDigits": 2
+      }
+    },
+    "orderState": "Confirmed",
+    "shipmentState": "Ready",
+    "paymentState": "Paid",
+    "syncInfo": [],
+    "returnInfo": [],
+    "priceRoundingMode": "HalfEven",
+    "taxMode": "Platform",
+    "inventoryMode": "None",
+    "taxRoundingMode": "HalfEven",
+    "taxCalculationMode": "LineItemLevel",
+    "origin": "Merchant",
+    "shippingMode": "Single",
+    "shippingInfo": {
+      "shippingMethodName": "Standard Shipping",
+      "price": {
+        "type": "centPrecision",
+        "currencyCode": "EUR",
+        "centAmount": 50000,
+        "fractionDigits": 2
+      },
+      "shippingRate": {
+        "price": {
+          "type": "centPrecision",
+          "currencyCode": "EUR",
+          "centAmount": 50000,
+          "fractionDigits": 2
+        },
+        "freeAbove": {
+          "type": "centPrecision",
+          "currencyCode": "EUR",
+          "centAmount": 1000000,
+          "fractionDigits": 2
+        },
+        "tiers": []
+      },
+      "taxRate": {
+        "name": "Standard VAT for Germany",
+        "amount": 0.19,
+        "includedInPrice": true,
+        "country": "DE",
+        "id": "pv4WdebX",
+        "key": "vat-standard-de",
+        "subRates": [],
+        "taxRoundingTarget": "Net"
+      },
+      "taxCategory": {
+        "typeId": "tax-category",
+        "id": "4866c807-2a2b-49c7-bb64-9bf75c879000"
+      },
+      "deliveries": [],
+      "shippingMethod": {
+        "typeId": "shipping-method",
+        "id": "f688e316-e298-41bd-a389-cb2b73601315"
+      },
+      "taxedPrice": {
+        "totalNet": {
+          "type": "centPrecision",
+          "currencyCode": "EUR",
+          "centAmount": 42017,
+          "fractionDigits": 2
+        },
+        "totalGross": {
+          "type": "centPrecision",
+          "currencyCode": "EUR",
+          "centAmount": 50000,
+          "fractionDigits": 2
+        },
+        "taxPortions": [
+          {
+            "rate": 0.19,
+            "amount": {
+              "type": "centPrecision",
+              "currencyCode": "EUR",
+              "centAmount": 7983,
+              "fractionDigits": 2
+            },
+            "name": "Standard VAT for Germany"
+          }
+        ],
+        "totalTax": {
+          "type": "centPrecision",
+          "currencyCode": "EUR",
+          "centAmount": 7983,
+          "fractionDigits": 2
+        }
+      },
+      "shippingMethodState": "MatchesCart"
+    },
+    "shippingAddress": {
+      "firstName": "Sebastian",
+      "lastName": "Müller",
+      "streetName": "Schulstrasse",
+      "streetNumber": "12",
+      "postalCode": "80331",
+      "city": "München",
+      "country": "DE"
+    },
+    "shipping": [],
+    "discountTypeCombination": {
+      "type": "Stacking"
+    },
+    "lineItems": [
+      {
+        "id": "3bcb9661-0d18-472a-94ff-9ca756b6721a",
+        "productId": "75f03326-5efa-4abb-90df-108490f057da",
+        "productKey": "traditional-l-seater-sofa",
+        "productType": {
+          "typeId": "product-type",
+          "id": "5ca17606-7b7d-4975-9be0-1517c98b201d",
+          "version": 1
+        },
+        "productSlug": {
+          "en-US": "traditional-l-seater-sofa",
+          "en-GB": "traditional-l-seater-sofa",
+          "de-DE": "traditionelles-l-sitzer-sofa"
+        },
+        "name": {
+          "en-US": "Traditional L Seater Sofa",
+          "en-GB": "Traditional L Seater Sofa",
+          "de-DE": "Traditionelles Ecksofa"
+        },
+        "variant": {
+          "id": 1,
+          "sku": "TLSS-01",
+          "key": "traditionalLSeaterSofa01",
+          "prices": [
+            {
+              "id": "1a6ba6d7-48c6-40f7-9786-26d78c052488",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 359900,
+                "fractionDigits": 2
+              },
+              "key": "359900EUR",
+              "country": "DE"
+            },
+            {
+              "id": "315b7709-0ce7-46b6-b5c7-72ee2e1395af",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "GBP",
+                "centAmount": 359900,
+                "fractionDigits": 2
+              },
+              "key": "359900GBP",
+              "country": "GB"
+            },
+            {
+              "id": "f3d553b3-7d74-414f-9a03-8a5649c2458f",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "USD",
+                "centAmount": 359900,
+                "fractionDigits": 2
+              },
+              "key": "359900USD",
+              "country": "US"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://storage.googleapis.com/merchant-center-europe/sample-data/b2c-lifestyle/Traditional_L_Seater_Sofa-1.2.jpeg",
+              "dimensions": {
+                "w": 2500,
+                "h": 2500
+              }
+            },
+            {
+              "url": "https://storage.googleapis.com/merchant-center-europe/sample-data/b2c-lifestyle/Traditional_L_Seater_Sofa-1.1.jpeg",
+              "dimensions": {
+                "w": 2500,
+                "h": 2500
+              }
+            },
+            {
+              "url": "https://storage.googleapis.com/merchant-center-europe/sample-data/b2c-lifestyle/Traditional_L_Seater_Sofa-1.3.jpeg",
+              "dimensions": {
+                "w": 5760,
+                "h": 3840
+              }
+            }
+          ],
+          "attributes": [
+            {
+              "name": "search-finish",
+              "value": {
+                "key": "brown",
+                "label": {
+                  "en-US": "Brown",
+                  "en-GB": "Brown",
+                  "de-DE": "Braun"
+                }
+              }
+            },
+            {
+              "name": "finish-code",
+              "value": "#8b4513"
+            },
+            {
+              "name": "productspec",
+              "value": {
+                "en-US": "- Cotton upholstery\n- Comes with accent pillows\n- Assembly on site",
+                "en-GB": "- Cotton upholstery\n- Comes with accent pillows\n- Assembly on site",
+                "de-DE": "- Baumwollbezug\n- Wurfkissen um Lieferumfang enthalten\n- Selbstmontage"
+              }
+            },
+            {
+              "name": "finish-label",
+              "value": {
+                "en-GB": "Saddle Brown",
+                "de-DE": "Sattel braun",
+                "en-US": "Saddle Brown"
+              }
+            },
+            {
+              "name": "color-label",
+              "value": {
+                "en-GB": "Beige",
+                "de-DE": "Beige",
+                "en-US": "Beige"
+              }
+            },
+            {
+              "name": "search-color",
+              "value": {
+                "key": "yellow",
+                "label": {
+                  "en-US": "Yellow",
+                  "en-GB": "Yellow",
+                  "de-DE": "Gelb"
+                }
+              }
+            },
+            {
+              "name": "color-code",
+              "value": "#F5F5DC"
+            }
+          ],
+          "assets": [],
+          "availability": {
+            "isOnStock": true,
+            "availableQuantity": 98,
+            "version": 1,
+            "id": "9cda6d25-8029-4856-9235-8977c2771fa6"
+          }
+        },
+        "price": {
+          "id": "1a6ba6d7-48c6-40f7-9786-26d78c052488",
+          "value": {
+            "type": "centPrecision",
+            "currencyCode": "EUR",
+            "centAmount": 359900,
+            "fractionDigits": 2
+          },
+          "key": "359900EUR",
+          "country": "DE"
+        },
+        "quantity": 1,
+        "discountedPricePerQuantity": [],
+        "taxRate": {
+          "name": "Standard VAT for Germany",
+          "amount": 0.19,
+          "includedInPrice": true,
+          "country": "DE",
+          "id": "pv4WdebX",
+          "key": "vat-standard-de",
+          "subRates": [],
+          "taxRoundingTarget": "Net"
+        },
+        "perMethodTaxRate": [],
+        "addedAt": "2026-10-12T10:21:38.699Z",
+        "lastModifiedAt": "2026-10-12T10:21:38.699Z",
+        "state": [
+          {
+            "quantity": 1,
+            "state": {
+              "typeId": "state",
+              "id": "45cead2e-88dd-4ad8-b331-95252066e72c"
+            }
+          }
+        ],
+        "priceMode": "Platform",
+        "lineItemMode": "Standard",
+        "priceRoundingMode": "HalfEven",
+        "totalPrice": {
+          "type": "centPrecision",
+          "currencyCode": "EUR",
+          "centAmount": 359900,
+          "fractionDigits": 2
+        },
+        "taxedPrice": {
+          "totalNet": {
+            "type": "centPrecision",
+            "currencyCode": "EUR",
+            "centAmount": 302437,
+            "fractionDigits": 2
+          },
+          "totalGross": {
+            "type": "centPrecision",
+            "currencyCode": "EUR",
+            "centAmount": 359900,
+            "fractionDigits": 2
+          },
+          "taxPortions": [
+            {
+              "rate": 0.19,
+              "amount": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 57463,
+                "fractionDigits": 2
+              },
+              "name": "Standard VAT for Germany"
+            }
+          ],
+          "totalTax": {
+            "type": "centPrecision",
+            "currencyCode": "EUR",
+            "centAmount": 57463,
+            "fractionDigits": 2
+          }
+        },
+        "taxedPricePortions": []
+      }
+    ],
+    "customLineItems": [],
+    "transactionFee": true,
+    "discountCodes": [],
+    "directDiscounts": [],
+    "cart": {
+      "typeId": "cart",
+      "id": "e141597e-39f2-45a5-890a-dc06661e83c1"
+    },
+    "paymentInfo": {
+      "payments": [
+        {
+          "typeId": "payment",
+          "id": "73d705b7-ac45-42f3-9660-782a87a968ea"
+        }
+      ]
+    },
+    "billingAddress": {
+      "firstName": "Sebastian",
+      "lastName": "Müller",
+      "streetName": "Schulstrasse",
+      "streetNumber": "12",
+      "postalCode": "80331",
+      "city": "München",
+      "country": "DE"
+    },
+    "itemShippingAddresses": [],
+    "refusedGifts": [],
+    "store": {
+      "typeId": "store",
+      "key": "b2c-retail-store"
+    }
+  }
+]

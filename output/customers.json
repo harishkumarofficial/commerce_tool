@@ -1,0 +1,226 @@
+[
+  {
+    "id": "f75c0b5e-c6d2-4def-bad9-869f6570db1c",
+    "version": 1,
+    "versionModifiedAt": "2026-10-12T10:21:35.709Z",
+    "lastMessageSequenceNumber": 1,
+    "createdAt": "2026-10-12T10:21:35.709Z",
+    "lastModifiedAt": "2026-10-12T10:21:35.709Z",
+    "lastModifiedBy": {
+      "isPlatformClient": true
+    },
+    "createdBy": {
+      "isPlatformClient": true
+    },
+    "email": "seb@example.de",
+    "firstName": "Sebastian",
+    "lastName": "Müller",
+    "password": "****9kY=",
+    "addresses": [
+      {
+        "id": "RkVzNKu6",
+        "firstName": "Sebastian",
+        "lastName": "Müller",
+        "streetName": "Schulstrasse",
+        "streetNumber": "12",
+        "postalCode": "80331",
+        "city": "München",
+        "country": "DE"
+      }
+    ],
+    "shippingAddressIds": [],
+    "billingAddressIds": [],
+    "isEmailVerified": true,
+    "customerGroupAssignments": [],
+    "key": "sebastian-mueller",
+    "stores": [],
+    "authenticationMode": "Password"
+  },
+  {
+    "id": "c76355f0-936c-48df-ba77-6446d883f4be",
+    "version": 1,
+    "versionModifiedAt": "2026-10-12T10:21:35.736Z",
+    "lastMessageSequenceNumber": 1,
+    "createdAt": "2026-10-12T10:21:35.736Z",
+    "lastModifiedAt": "2026-10-12T10:21:35.736Z",
+    "lastModifiedBy": {
+      "isPlatformClient": true
+    },
+    "createdBy": {
+      "isPlatformClient": true
+    },
+    "email": "jen@example.com",
+    "firstName": "Jennifer",
+    "lastName": "Robinson",
+    "password": "****PQA=",
+    "addresses": [
+      {
+        "id": "56pCzsIv",
+        "firstName": "Jennifer",
+        "lastName": "Robinson",
+        "streetName": "Second Street",
+        "streetNumber": "15",
+        "postalCode": "10001",
+        "city": "New York City",
+        "state": "New York",
+        "country": "US"
+      }
+    ],
+    "shippingAddressIds": [],
+    "billingAddressIds": [],
+    "isEmailVerified": true,
+    "customerGroupAssignments": [],
+    "key": "jennifer-robinson",
+    "stores": [],
+    "authenticationMode": "Password"
+  },
+  {
+    "id": "92c0353a-622b-4863-85e9-3c9b5c9988ba",
+    "version": 1,
+    "versionModifiedAt": "2026-10-12T10:21:35.708Z",
+    "lastMessageSequenceNumber": 1,
+    "createdAt": "2026-10-12T10:21:35.708Z",
+    "lastModifiedAt": "2026-10-12T10:21:35.708Z",
+    "lastModifiedBy": {
+      "isPlatformClient": true
+    },
+    "createdBy": {
+      "isPlatformClient": true
+    },
+    "email": "jen@example.de",
+    "firstName": "Jennifer",
+    "lastName": "Schmidt",
+    "password": "****YfQ=",
+    "addresses": [
+      {
+        "id": "PdKQiHYo",
+        "firstName": "Jennifer",
+        "lastName": "Schmidt",
+        "streetName": "Hauptstrasse",
+        "streetNumber": "25",
+        "postalCode": "14467",
+        "city": "Potsdam",
+        "country": "DE"
+      }
+    ],
+    "shippingAddressIds": [],
+    "billingAddressIds": [],
+    "isEmailVerified": true,
+    "customerGroupAssignments": [],
+    "key": "jennifer-schmidt",
+    "stores": [],
+    "authenticationMode": "Password"
+  },
+  {
+    "id": "0966d082-3a04-4d19-a48a-183295e58eba",
+    "version": 1,
+    "versionModifiedAt": "2026-10-12T10:21:35.702Z",
+    "lastMessageSequenceNumber": 1,
+    "createdAt": "2026-10-12T10:21:35.702Z",
+    "lastModifiedAt": "2026-10-12T10:21:35.702Z",
+    "lastModifiedBy": {
+      "isPlatformClient": true
+    },
+    "createdBy": {
+      "isPlatformClient": true
+    },
+    "email": "seb@example.com",
+    "firstName": "Sebastian",
+    "lastName": "Franklin",
+    "password": "****bYE=",
+    "addresses": [
+      {
+        "id": "xdiSGTu8",
+        "firstName": "Sebastian",
+        "lastName": "Franklin",
+        "streetName": "South Road",
+        "streetNumber": "9",
+        "postalCode": "27517",
+        "city": "Durham",
+        "state": "North Carolina",
+        "country": "US"
+      }
+    ],
+    "shippingAddressIds": [],
+    "billingAddressIds": [],
+    "isEmailVerified": true,
+    "customerGroupAssignments": [],
+    "key": "sebastian-franklin",
+    "stores": [],
+    "authenticationMode": "Password"
+  },
+  {
+    "id": "fbac5344-f5da-47f2-acb9-69cf13824858",
+    "version": 1,
+    "versionModifiedAt": "2026-10-12T10:21:35.705Z",
+    "lastMessageSequenceNumber": 1,
+    "createdAt": "2026-10-12T10:21:35.705Z",
+    "lastModifiedAt": "2026-10-12T10:21:35.705Z",
+    "lastModifiedBy": {
+      "isPlatformClient": true
+    },
+    "createdBy": {
+      "isPlatformClient": true
+    },
+    "email": "seb@example.uk",
+    "firstName": "Sebastian",
+    "lastName": "Smith",
+    "password": "****zfc=",
+    "addresses": [
+      {
+        "id": "v6hUMcWt",
+        "firstName": "Sebastian",
+        "lastName": "Smith",
+        "streetName": "Center Street",
+        "streetNumber": "1",
+        "postalCode": "PO167GZ",
+        "city": "Fareham",
+        "country": "GB"
+      }
+    ],
+    "shippingAddressIds": [],
+    "billingAddressIds": [],
+    "isEmailVerified": true,
+    "customerGroupAssignments": [],
+    "key": "sebastian-smith",
+    "stores": [],
+    "authenticationMode": "Password"
+  },
+  {
+    "id": "3554f663-2cb1-47f9-bdf1-70749e27047f",
+    "version": 1,
+    "versionModifiedAt": "2026-10-12T10:21:35.702Z",
+    "lastMessageSequenceNumber": 1,
+    "createdAt": "2026-10-12T10:21:35.702Z",
+    "lastModifiedAt": "2026-10-12T10:21:35.702Z",
+    "lastModifiedBy": {
+      "isPlatformClient": true
+    },
+    "createdBy": {
+      "isPlatformClient": true
+    },
+    "email": "jen@example.uk",
+    "firstName": "Jennifer",
+    "lastName": "Jones",
+    "password": "****rNM=",
+    "addresses": [
+      {
+        "id": "Xfp2B_nB",
+        "firstName": "Jennifer",
+        "lastName": "Jones",
+        "streetName": "Main Road",
+        "streetNumber": "100",
+        "postalCode": "SW1A2AA",
+        "city": "Westminster",
+        "country": "GB"
+      }
+    ],
+    "shippingAddressIds": [],
+    "billingAddressIds": [],
+    "isEmailVerified": true,
+    "customerGroupAssignments": [],
+    "key": "jennifer-jones",
+    "stores": [],
+    "authenticationMode": "Password"
+  }
+]
